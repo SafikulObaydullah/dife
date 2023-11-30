@@ -1,0 +1,726 @@
+﻿@{
+    ViewBag.Title = "Case Activity Update Entry";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    td {
+        padding: 9px;
+    }
+
+    p {
+        color: #ffffff;
+    }
+
+    body span {
+        color: black;
+        font-weight: bold;
+    }
+
+    .card {
+        --border-radius: 0.75rem;
+        --primary-color: #7257fa;
+        --secondary-color: #3c3852;
+        width: 100%;
+        font-family: "Arial";
+        padding: 1rem;
+        cursor: pointer;
+        border-radius: var(--border-radius);
+        background: #f1f1f3;
+        box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 3%);
+        position: relative;
+    }
+
+        .card > * + * {
+            margin-top: 1.1em;
+        }
+
+        .card .card__content {
+            color: var(--secondary-color);
+            font-size: 0.86rem;
+        }
+
+        .card .card__title {
+            padding: 0;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+
+        .card .card__date {
+            color: #6e6b80;
+            font-size: 0.8rem;
+        }
+
+        .card .card__arrow {
+            position: absolute;
+            background: var(--primary-color);
+            padding: 0.4rem;
+            border-top-left-radius: var(--border-radius);
+            border-bottom-right-radius: var(--border-radius);
+            bottom: 0;
+            right: 0;
+            transition: 0.2s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card svg {
+            transition: 0.2s;
+        }
+
+        /* hover */
+        .card:hover .card__title {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+
+        .card:hover .card__arrow {
+            background: #111;
+        }
+
+            .card:hover .card__arrow svg {
+                transform: translateX(3px);
+            }
+
+    .flexbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .flexcard {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        align-items: baseline;
+        height: 310px;
+        border-radius: 20px;
+    }
+
+    .flexcardNumber {
+        width: 70%;
+        padding-left: 10px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 50px;
+        margin: 10px 0px;
+        border-radius: 0px 50px 50px 0px;
+        font-family: 'Jost', sans-serif;
+        color: white;
+        text-shadow: 0px 3px 5px black;
+        font-weight: 500;
+        font-size: 20px;
+        position: relative;
+    }
+
+    .flexcardTitle {
+        font-family: 'Jost', sans-serif;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 400;
+        color: #950404;
+    }
+
+    .flexcardText {
+        font-family: 'Jost', sans-serif;
+        text-align: left;
+        font-weight: 300;
+        justify-content: left !important;
+        margin-top: 35px !important;
+    }
+
+    p {
+        color: #000000;
+    }
+
+    .flexcardNumber:before {
+        content: '';
+        width: 34px;
+        height: 90px;
+        position: absolute;
+        left: -33px;
+        top: 0px;
+        border-radius: 50px 0px 0px 50px;
+        z-index: -1;
+        /* background: #95B7A2; */ /* background: -webkit-linear-gradient(bottom, #95B7A2, #AED2BC); */
+        background: -moz-linear-gradient(bottom, #95B7A2, #AED2BC);
+        /* background: linear-gradient(to top, #95B7A2, #AED2BC); */;
+    }
+
+    .flexcardNumber:after {
+        content: '';
+        width: 25px;
+        height: 40px;
+        position: absolute;
+        left: -25px;
+        bottom: -40px;
+        border-radius: 50px 0px 0px 50px;
+        z-index: -1;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    img.flexcardimgItem {
+        width: 50%;
+    }
+
+    /* GREEN CARD */
+
+    .flexcardGreen {
+        background: #f8f8f8;
+        box-shadow: 4px 4px 4px #84a18f;
+    }
+
+    .flexcardNumberGreen {
+        background: #FCFCFC;
+        background: -webkit-linear-gradient(right, #FCFCFC, #AED2BC);
+        background: -moz-linear-gradient(right, #FCFCFC, #AED2BC);
+        background: #0b7635;
+        box-shadow: 0px 2px 2px #72927e;
+    }
+
+        .flexcardNumberGreen:before {
+            background: #AED2BC;
+        }
+
+        .flexcardNumberGreen:after {
+            background: #95b7a2;
+        }
+
+    /* BLUE CARD */
+
+    .flexcardBlue {
+        background: #f7ffff;
+        box-shadow: 4px 8px 1px #92E8EB;
+    }
+
+    .flexcardNumberBlue {
+        background: #FDFFFE;
+        background: -webkit-linear-gradient(right, #FDFFFE, #92E8EB);
+        background: -moz-linear-gradient(right, #FDFFFE, #92E8EB);
+        background: linear-gradient(to left, #FDFFFE, #92E8EB);
+        box-shadow: 0px 2px 2px #92E8EB;
+    }
+
+        .flexcardNumberBlue:before {
+            background: #92E8EB;
+        }
+
+        .flexcardNumberBlue:after {
+            background: #71bdbf;
+        }
+
+    /* ORANGE CARD */
+
+    .flexcardOrange {
+        background: #fdf8f3;
+        box-shadow: 4px -2px 1px #F68404;
+    }
+
+    .flexcardNumberOrange {
+        background: #FDFFFE;
+        background: -webkit-linear-gradient(right, #FDFFFE, #F68404);
+        background: -moz-linear-gradient(right, #FDFFFE, #F68404);
+        background: linear-gradient(to left, #FDFFFE, #F68404);
+        box-shadow: 0px 2px 2px #F68404;
+    }
+
+        .flexcardNumberOrange:before {
+            background: #F68404;
+        }
+
+        .flexcardNumberOrange:after {
+            background: #d06f02;
+        }
+
+    /* PİNK CARD */
+
+    .flexcardPink {
+        background: #fffafd;
+        position: relative;
+        box-shadow: 2px 2px 1px #F34EAE;
+        border-radius: 20px 20px 0px 20px;
+    }
+
+        .flexcardPink:before {
+            content: '';
+            width: 0px;
+            height: 50px;
+            /* background: red; */
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            border-left: 100px solid transparent;
+            border-bottom: 90px solid #F34EAE;
+        }
+
+    .flexcardNumberPink {
+        background: #FDFFFE;
+        background: -webkit-linear-gradient(right, #FDFFFE, #F34EAE);
+        background: -moz-linear-gradient(right, #FDFFFE, #F34EAE);
+        background: linear-gradient(to left, #FDFFFE, #F34EAE);
+        box-shadow: 0px 2px 2px #F34EAE;
+    }
+
+        .flexcardNumberPink:before {
+            background: #F34EAE;
+        }
+
+        .flexcardNumberPink:after {
+            background: #d24095;
+        }
+
+    /* RESPONSİVE */
+
+    @@media only screen and (max-width: 800px) {
+
+        .flexcard {
+            width: 35%;
+            margin-top: 20px;
+        }
+
+        img.flexcardimgItem {
+            width: 30%;
+        }
+    }
+
+    @@media only screen and (max-width: 500px) {
+
+        .flexcard {
+            width: 70%;
+        }
+    }
+
+    footer {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 50px;
+        font-family: 'Jost', sans-serif;
+        font-size: 15px;
+    }
+
+    b, strong {
+        font-weight: bold;
+    }
+</style>
+
+<div class="main_content_iner ">
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="modal-content cs_modal">
+                    <div class="modal-header justify-content-center theme_bg_mainpage_modal_header">
+                        <h5 class="modal-title">CASE ACTIVITY UPDATE</h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" style=" text-align: right; background: #bbdfff; padding: 10px;">
+                            <button class="btn btn-success" onclick="AddActivity()">Add Activity</button>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-5" style="">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <h3 class="card__title" style="text-align: center;">
+                                            CASE SUMMARY
+                                        </h3>
+                                        <div class="row">
+                                            <table class="table-bordered">
+                                                <tr>
+                                                    <td>
+                                                        <div class="row">
+                                                            <div class="col-md-4" style="text-align:right;"><strong>Case Referance</strong></div>
+                                                            <div class="col-md-8"> : Civil Appeal 175/2018(Judgment)</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="row">
+                                                            <div class="col-md-4" style="text-align:right;"><strong>Subject</strong></div>
+                                                            <div class="col-md-8"> : Crime</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="row">
+                                                            <div class="col-md-4" style="text-align:right;"><strong>Date</strong></div>
+                                                            <div class="col-md-8"> : 01 Jan 2023</div>
+                                                        </div>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="row">
+                                                            <div class="col-md-4" style="text-align:right;"><strong>Court</strong></div>
+                                                            <div class="col-md-8"> : Supreme Court</div>
+                                                        </div>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="row">
+                                                            <div class="col-md-4" style="text-align:right;"><strong>District</strong></div>
+                                                            <div class="col-md-8"> : Dhaka</div>
+                                                        </div>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="row">
+                                                            <div class="col-md-4" style="text-align:right;"><strong>Respondent</strong></div>
+                                                            <div class="col-md-8"> :  N/A</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="row">
+                                                            <div class="col-md-4" style="text-align:right;"><strong>Type</strong></div>
+                                                            <div class="col-md-8"> :  N/A</div>
+                                                        </div>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="text-align: right"><button class="btn btn-info" style="" onclick="ViewDetails()">View Details</button></td>
+                                                </tr>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <br />
+                            <br />
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <h3 class="card__title" style="text-align: center;">
+                                            Attachments
+                                        </h3>
+                                        <div class="row">
+                                            <table class="table-bordered">
+                                                <tr style=""><td><input type="checkbox" class="k-checkbox" checked disabled /> <span style="color:blue;text-decoration:underline;cursor:pointer;"> রুল কপি</span></td> </tr>
+                                                <tr style=""><td><input type="checkbox" class="k-checkbox" checked disabled /> <span style="color:blue;text-decoration:underline;cursor:pointer;"> পিটিশন কপি</span></td> </tr>
+                                                <tr style=""><td><input type="checkbox" class="k-checkbox" checked disabled /> <span style="color:blue;text-decoration:underline;cursor:pointer;"> ইন্টেরিয়াম কপি</span></td> </tr>
+                                                <tr style=""><td><input type="checkbox" class="k-checkbox" checked disabled /> <span style="color:blue;text-decoration:underline;cursor:pointer;"> Stay Order</span></td> </tr>
+                                                <tr style=""><td><input type="checkbox" class="k-checkbox" checked disabled /> <span style="color:blue;text-decoration:underline;cursor:pointer;"> Direction</span></td> </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-7" style=" justify-content: right; display: flex;">
+                            <div class="row">
+                                <div class="col-md-12" style=" margin-bottom: 15px;">
+                                    <div class="flexbox">
+                                        <div class="flexcard flexcardGreen">
+                                            <div class="flexcardNumber flexcardNumberGreen">03. Judgement <span style="color: #ffcece; font-size: 12px; margin-left: 12px;"> [Against Govt.]</span></div>
+                                            <div class="flex flexcardText" style="justify-content:left !important">
+                                                <div class="row">
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Date </strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> : 01 Jan 2024</p>
+                                                    </div>
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Type </strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> : N/A </p>
+                                                    </div>
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Withness</strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> : Abdul Malek </p>
+                                                    </div>
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Lawyer </strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> : Titumir Titu</p>
+                                                    </div>
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Description </strong></p>
+                                                    </div>
+                                                    <div class="col-md-10">
+                                                        <p>
+                                                            : Failure to comply with Section 342 of the Cr.PC may be cured by the Appellate Court during appeal hearing.
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>External Participants </strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> :Mr. Sarwar Hossain</p>
+                                                    </div>
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Internal Participants </strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> : Jumman Bepary</p>
+                                                    </div>
+
+                                                    <div class="col-md-6"></div>
+                                                    <div class="col-md-6" style="text-align:right">
+                                                        <button class="btn btn-warning" onclick="Edit()">Edit</button>
+                                                        <button class="btn btn-info" onclick="">View Details</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12" style=" margin-bottom: 15px;">
+                                    <div class="flexbox">
+                                        <div class="flexcard flexcardGreen">
+                                            <div class="flexcardNumber flexcardNumberGreen">02. Hearing</div>
+                                            <div class="flex flexcardText" style="justify-content:left !important">
+                                                <div class="row">
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Date </strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> : 01 Jan 2023</p>
+                                                    </div>
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Type </strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> : N/A </p>
+                                                    </div>
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Withness</strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> : Abdul Malek </p>
+                                                    </div>
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Lawyer </strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> : Titumir Titu</p>
+                                                    </div>
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Description </strong></p>
+                                                    </div>
+                                                    <div class="col-md-10">
+                                                        <p>
+                                                            : ------------------------------------------------------------------
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>External Participants </strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> :Mr. Sarwar Hossain</p>
+                                                    </div>
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Internal Participants </strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> : Jumman Bepary</p>
+                                                    </div>
+
+                                                    <div class="col-md-6"></div>
+                                                    <div class="col-md-6" style="text-align:right">
+                                                        <button class="btn btn-warning" onclick="Edit()">Edit</button>
+                                                        <button class="btn btn-info" onclick="">View Details</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12" style=" margin-bottom: 15px;">
+                                    <div class="flexbox">
+                                        <div class="flexcard flexcardGreen">
+                                            <div class="flexcardNumber flexcardNumberGreen">01. Hearing</div>
+                                            <div class="flex flexcardText" style="justify-content:left !important">
+                                                <div class="row">
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Date </strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> : 01 Jan 2022</p>
+                                                    </div>
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Type </strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> : N/A </p>
+                                                    </div>
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Withness</strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> : Abdul Malek </p>
+                                                    </div>
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Lawyer </strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> : Titumir Titu</p>
+                                                    </div>
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Description </strong></p>
+                                                    </div>
+                                                    <div class="col-md-10">
+                                                        <p>
+                                                            : ------------------------------------------------------------------
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>External Participants </strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> :Mr. Sarwar Hossain</p>
+                                                    </div>
+                                                    <div class="col-md-2" style="text-align:right;">
+                                                        <p> <strong>Internal Participants </strong></p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p> : Jumman Bepary</p>
+                                                    </div>
+
+                                                    <div class="col-md-6"></div>
+                                                    <div class="col-md-6" style="text-align:right">
+                                                        <button class="btn btn-warning" onclick="Edit()">Edit</button>
+                                                        <button class="btn btn-info" onclick="">View Details</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="mdlActivity" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Add/Edit Case Activity</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <span>Date</span>  <input id="" class="Kdatepicker" style="width:100%" />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <span>Activity Type</span><select id="ddlActivityType" style="width:100%"></select>
+                    </div>
+                    <div class="col-md-12 mb-3" id="activitytype" style="text-align:right;display:none">
+                        <ul id="radiogroup"></ul>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <span>Activity Description</span><textarea id="invitation" class="Ktextarea" required data-required-msg="Please enter a text." data-max-msg="Enter value between 1 and 500" style="width:100%"></textarea>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <span>Next Hearing Date</span> <input class="Kdatepicker" style="width:100%" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" onclick="Save()">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var CaseActivityList = [{ "id": 1, "name": "Appearance" }, { "id": 2, "name": "Summons Issuance" }, { "id": 3, "name": "Warrant Issuance" }, { "id": 4, "name": "Warrant of Proclamation and Attachment" }, { "id": 5, "name": "Newapaper Publication-Two Daily Newspapers" }, { "id": 6, "name": "Interim order" }, { "id": 7, "name": "Charge Hearing" }, { "id": 8, "name": "Charge Frame" }, { "id": 9, "name": "Witness Chief-Examination" }, { "id": 10, "name": "Witness Re-Examination" }, { "id": 11, "name": "Argument" }, { "id": 12, "name": "Judgment" }];
+
+    $(document).ready(function () {
+        BindInitialDDL();
+        $("#radiogroup").kendoRadioGroup({
+            items: ["Against Govt.", "Favour of Govt.", "N/A"],
+            layout: "horizontal",
+            value: "Against Govt."
+        });
+    })
+
+    function BindInitialDDL() {
+        $(".Ktextarea").kendoTextArea({
+            rows: 3,
+            maxLength: 500,
+            placeholder: "Enter your text here."
+        });
+
+
+        $("#ddlActivityType").kendoComboBox({
+            placeholder: "Select Activity Type...",
+            dataTextField: "name",
+            dataValueField: "id",
+            autoBind: false,
+            dataSource: CaseActivityList,
+            change: function () {
+                if (this.dataItem() == undefined) {
+                    $('#activitytype').hide();
+                    return;
+                }
+
+                if (this.dataItem().id == 12) {
+                    $('#activitytype').show();
+                    return;
+                }
+                else {
+                    $('#activitytype').hide();
+                    return;
+                }
+
+            }
+        });
+    }
+    function ViewDetails() {
+        var url = '/Reports/rpt_CaseReport?ID=1';
+        window.open(url, '_blank');
+    }
+    function Edit() {
+        $('#mdlActivity').modal('toggle')
+    }
+    function AddActivity() {
+        $('#mdlActivity').modal('toggle')
+    }
+
+</script>

@@ -1,0 +1,186 @@
+﻿var Case;
+var CaseList = [];
+var CaseActivity = [];
+var CaseDocumentList = [];
+var CaseRespondentList = [];
+
+function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++) {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam) {
+            return sParameterName[1];
+        }
+    }
+}
+
+var CaseId = getUrlParameter('ID');
+
+$(document).ready(function () {
+    CaseId == undefined ? 0 : CaseId;
+    CaseReportBind(CaseId);
+});
+
+function CaseReportBind(id) {
+    $.ajax({
+        url: "/Report/GetReportData?id=" + id,
+        method: "GET",
+        dataType: "json",
+        success: function (data) {
+            console.log(data);
+            Case = data.caseInfo;
+            if (Case != null) {
+                CaseList.push(Case);
+            }
+            CaseActivity = data.caseActivityByCaseId;
+            CaseRespondentList = data.caseRespondent; 
+            CaseDocumentList = data.caseDocument;
+            ShowCaseData();
+            ShowCaseRespondent();
+            ShowActivityData();
+            ShowAttachments();
+            ShowReferenceCase();
+        }
+    })
+}
+
+function ShowCaseData() {
+    CaseList[0].caseNo != "" ? $("#caseNo").text(CaseList[0].caseNo) : $("#caseNo").text('');
+    CaseList[0].caseSection != "" ? $("#caseSection").text(CaseList[0].caseSection) : $("#caseSection").text('');
+    CaseList[0].courtName != "" ? $("#courtType").text(CaseList[0].courtName) : $("#courtType").text('');
+    CaseList[0].issueDate != "" ? $("#issueDate").text(moment(CaseList[0].issueDate).format('DD/MM/YYYY')) : $("#issueDate").text('');
+    CaseList[0].courtTypeName != "" ? $("#court").text(CaseList[0].courtTypeName) : $("#court").text('');
+    CaseList[0].caseCategoryName != "" ? $("#caseCategory").text(CaseList[0].caseCategoryName) : $("#caseCategory").text('');
+    CaseList[0].caseTypeName != "" ? $("#caseType").text(CaseList[0].caseTypeName) : $("#caseType").text('');
+    CaseList[0].caseNatureName != "" ? $("#caseNature").text(CaseList[0].caseNatureName) : $("#caseNature").text('');
+    CaseList[0].caseStatusName != "" ? $("#caseStatus").text(CaseList[0].caseStatusName) : $("#caseStatus").text('');
+    CaseList[0].caseSubject != "" ? $("#caseSubject").text(CaseList[0].caseSubject) : $("#caseSubject").text('');
+    CaseList[0].casePetitioner != "" ? $("#casePetitioner").text(CaseList[0].casePetitioner) : $("#casePetitioner").text('');
+    CaseList[0].caseDescription != "" ? $("#description").text(CaseList[0].caseDescription) : $("#description").text('');
+    CaseList[0].principalRespondent != "" ? $("#principalRespondent").text(CaseList[0].principalRespondent) : $("#principalRespondent").text('');
+    CaseList[0].otherRespondent != "" ? $("#otherRespondent").text(CaseList[0].otherRespondent) : $("#otherRespondent").text('');
+    CaseList[0].officeName != "" ? $("#concOffice").text(CaseList[0].officeName) : $("#concOffice").text('');
+    CaseList[0].personName != "" ? $("#concPerson").text(CaseList[0].personName) : $("#concPerson").text('');
+    CaseList[0].governmentLawyer != "" ? $("#governmentLawyer").text(CaseList[0].governmentLawyer) : $("#governmentLawyer").text('');
+    CaseList[0].referenceCaseNo != "" ? $("#referenceCaseNo").text(CaseList[0].referenceCaseNo) : $("#referenceCaseNo").text('');
+    CaseList[0].background != "" ? $("#background").text(CaseList[0].background) : $("#background").text('');
+}
+
+function ShowActivityData() {
+    var html = '';
+    if (CaseActivity.length > 0) {
+        html += '<tr>' +
+            '<th>Type</th>' +
+            '<th>Date</th>' +
+            '<th>Description</th>' +
+            '</tr>';
+        for (var i = 0; i < CaseActivity.length; i++) {
+            if (CaseActivity[i].activityName == 'Judgement') {
+                break;
+            }
+            html +=
+                '<tr>' +
+                '<td>' + CaseActivity[i].activityName + '</td>' +
+                '<td>' + moment(CaseActivity[i].activityDate).format('DD/MM/YYYY') + '</td>' +
+                '<td>' + CaseActivity[i].description + '</td>' +
+                '</tr>'
+        }
+        ShowJudgement();
+    }
+    else {
+        html += '<tr> <th style="text-align: center">No Data Available</th> </tr>'
+    }
+    
+    $("#activityTable").append(html);
+}
+
+function ShowAttachments() {
+    var attachmentHtml = '';
+    if (CaseDocumentList.length > 0) {
+        attachmentHtml += '<tr>' +
+            '<th>Document Name</th>' +
+            '<th>Issue Date</th>' +
+            '<th>Description</th>' +
+            '</tr>'
+    }
+    else {
+        attachmentHtml += '<tr> <th style="text-align: center">No Data Available</th> </tr>'
+    }
+    for (var i = 0; i < CaseDocumentList.length; i++) {
+        attachmentHtml += '<tr>' +
+            '<td> <span onclick="DownloadCaseDocumentById(' + CaseDocumentList[i].id +')" style="color:blue;text-decoration:underline;cursor:pointer;">' + CaseDocumentList[i].docTypeName + '</span></td>' +
+            '<td>'+ moment(CaseDocumentList[i].issueDate).format('MMMM Do YYYY')+'</td >' +
+            '<td>'+ CaseDocumentList[i].description + '</td>' +
+            '</tr>'
+    }
+
+    //for (var i = 0; i < CaseDocumentList.length; i++) {
+    //    attachmentHtml += '<tr>' +
+    //        '<td><button class=btn btn-secondary onclick="DownloadCaseDocumentById(' + CaseDocumentList[i].id+')"><span style="color:blue;text-decoration:underline;cursor:pointer;>' + CaseDocumentList[i].docTypeName + '</span></button> </td>' +
+    //        '<td>' + moment(CaseDocumentList[i].issueDate).format('MMMM Do YYYY') + '</td >' +
+    //        '<td>' + CaseDocumentList[i].description + '</td>' +
+    //        '</tr>'
+    //}
+    $('#attachmentTable').append(attachmentHtml);
+}
+
+function ShowReferenceCase() {
+    var referenceHtml = '';
+    if (CaseList[0].referenceCaseNo != "0") {
+        CaseList[0].referenceCaseIssueDate == "0001-01-01T00:00:00" ? "" : $("#refIssueDate").text(moment(CaseList[0].referenceCaseIssueDate).format('DD-MM-YYYY'));
+        referenceHtml += '<tr>' +
+            '<th>Case No</th>' +
+            '<th>Date</th>' +
+            '<th>Court</th>' +
+            '<th>Subject</th>' +
+            '<th>Case Background</th>' +
+            '</tr>' +
+            '<tr>' +
+            '<td id="caseNoRef" style="color:blue;text-decoration:underline;cursor:pointer;" onclick="ReferenceLink()">' +CaseList[0].caseNoReference+'</td>'+
+            '<td id="refIssueDate">'+ +'</td>'+
+            '<td id="refCourtName">'+CaseList[0].referenceCourtName+'</td>'+
+            '<td id="refCaseSubject">'+CaseList[0].referenceCaseSubject+'</td>'
+            '<td id="refBackground">'+CaseList[0].referenceCaseBackground+'</td>'+
+            '</tr>'
+    } else {
+        $("#refIssueDate").text("");
+        referenceHtml += '<tr> <th style="text-align: center">No Data Available</th> </tr>'
+    }
+    $('#referenceTable').append(referenceHtml);
+}
+
+function ShowJudgement() {
+    var judgementHtml = '';
+    if (CaseActivity[CaseActivity.length - 1].activityName == 'Judgement') {
+        $('#judgement').show();
+        judgementHtml += '<tr>' +
+            '<td>' + CaseActivity[CaseActivity.length - 1].description + '</td>' +
+        '</tr>'
+    }
+    $('#judgement').append(judgementHtml);
+}
+
+function ReferenceLink() {
+    location.href = '/Report/Index?ID=' + CaseList[0].referenceCaseNo;
+}
+
+function ShowCaseRespondent() {
+    var respondentHtml = '';
+    if (CaseRespondentList.length > 0) {
+        respondentHtml += '<tr>' +
+            '<th>Office Name</th>' +
+            '<th>Respondent Type</th>' +
+            '</tr>'
+        for (var i = 0; i < CaseRespondentList.length; i++) {
+            respondentHtml += '<tr>' +
+                '<th>' + CaseRespondentList[i].office + '</th>'+
+                '<th>' + CaseRespondentList[i].respondentType + '</th>'+
+            '</tr>'
+        }
+    }
+    else {
+        respondentHtml += '<tr> <th style="text-align: center">No Data Available</th> </tr>'
+    }
+    $('#caseRespondentTable').append(respondentHtml);
+}

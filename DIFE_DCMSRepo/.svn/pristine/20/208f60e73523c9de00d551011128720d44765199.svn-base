@@ -1,0 +1,266 @@
+﻿@{
+    ViewBag.Title = "Case";
+    Layout = null;
+}
+<title>@ViewBag.Title</title>
+<link href="~/assets/lib/kendoui/css/report/report-2.css" rel="stylesheet" />
+<link href="~/assets/lib/kendoui/css/report/report.css" rel="stylesheet" />
+<link href="~/assets/lib/kendoui/css/kendo.common.min.css" rel="stylesheet" />
+
+<script src="~/assets/lib/kendoui/js/jquery-3.5.1.min.js"></script>
+<script src="~/assets/lib/kendoui/js/kendo.all.min.js"></script>
+<script src="~/assets/lib/kendoui/js/jquery.blockui.js"></script>
+<script src="~/assets/lib/kendoui/js/moment.min.js"></script>
+<script src="~/assets/lib/kendoui/js/underscore-min.js"></script>
+<script src="~/assets/lib/kendoui/js/report-common.js"></script>
+
+<script src="~/assets/lib/commonui/js/casemanagement/reports/rpt_caseentrydata.js?v=@DateTime.Now.ToString("yymmddHHmmss")"></script>
+<style>
+    .parentCss {
+        background-color: #ffffff;
+    }
+
+    .ReportBorderL {
+        width: 12in;
+    }
+
+    th {
+        text-align: left;
+    }
+
+    @@media print {
+        .noprint {
+            visibility: hidden;
+        }
+    }
+
+    tbody, td, tfoot, th, thead, tr {
+        border-color: #c6c2c2;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    table {
+        caption-side: bottom;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <div class="col-md-12" align="center">
+        <div align="left" class="ReportBorder" style="min-height:890px;">
+            <table style="width: 100%;border: 0;">
+                <tbody>
+                    <tr style="border: 0;">
+                        <td style="border: 0;">
+                            <img src="~/assets/Login/images/GovernmentofBangladesh.png" style="width:100px;">
+                        </td>
+                        <td class="Company" style="border: 0;" colspan="2" id="CompanyName">
+                            <p style="font-size: 18px; font-weight: bold;padding:0;margin:0">
+                                Department of Inspection for Factories and Establishments
+                            </p>
+                            <p style="font-size: 20px; font-weight: bold; margin: 0"> (DIFE)</p>
+                            <br />
+                            <p style=" padding: 0; margin: 0">
+                                Shromo Bhaban, 196, Sheed Syed Najrul Islam Soroni, Bijoynagar, Dhaka-1000.
+                            </p>
+                            <p style=" padding: 0; margin: 0">
+                                Phone: +88-02-8391348
+                            </p>
+                            <p style=" padding: 0; margin: 0">
+                                E-mail: ig@dife.gov.bd
+                            </p>
+                        </td>
+                        <td style="border: 0;">
+                            <img style="width:75px;margin-right: 15px;" />
+                        </td>
+                    </tr>
+                    <tr style="border: 0;">
+                        <td style="border: 0;">
+                        </td>
+                        <td style="border: 0;">
+                            <div align="center">
+                                <div class="ReportTitle" style="font-size: 13px; font-weight: bold; margin-bottom: 15px;">
+                                    <span id="spnReportTitle">Case Details</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td style="border: 0;">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <h3 id="nodata" style="text-align:center;color:red; font-size:15px; display:none;">No Case Data Found!</h3>
+            <section id="alldata" style="min-height:650px;">
+                <div id="tblCaseInfo">
+                    <table class="table-responsive" style="width:100%">
+                        <tr style="">
+                            <td colspan="4" style="background: antiquewhite;">
+                                <h4 style="text-align:center;color:black;">Genaral Information</h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Case Number:</th>
+                            <td style="width:30%">DCMS-122433#12</td>
+                            <th style="width:20%">Year:</th>
+                            <td style="width:30%">2023</td>
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Court Type:</th>
+                            <td style="width:30%">Labour Court</td>
+                            <th style="width:20%">Issue Date:</th>
+                            <td style="width:30%">14th Feb. 2023</td>
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Court:</th>
+                            <td style="width:30%">Dhaka Labour Court </td>
+                            <th style="width:20%">Case Category:</th>
+                            <td style="width:30%">Orginal case</td>
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Case Type:</th>
+                            <td style="width:30%">Writ Petition</td>
+                            <th style="width:20%">Case Nature:</th>
+                            <td style="width:30%">By Govt./ DIFE</td>
+
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Case Status:</th>
+                            <td style="width:30%">Running Case</td>
+                            <th style="width:20%">Case Subject:</th>
+                            <td style="width:30%">Buiding ar</td>
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Case Petitionor:</th>
+                            <td style="width:30%">Abu Reza Md. Khalekuzzaman</td>
+                            <th style="width:20%">Case Description:</th>
+                            <td style="width:30%">Islami Bank Ltd case file ready bank rule</td>
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Principal Respondent:</th>
+                            <td style="width:30%">Department of Inspection for Factories and Establishments</td>
+                            <th style="width:20%">Other  Respondent:</th>
+                            <td style="width:30%"></td>
+                        </tr>
+                        @*---*@
+                        <tr>
+                            <th style="width:20%">Concern Office:</th>
+                            <td style="width:30%">DIG office Dhaka</td>
+                            <th style="width:20%">Concern Person:</th>
+                            <td style="width:30%">Matiur Rahman</td>
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Govtment Lawyer:</th>
+                            <td style="width:30%">Riazul Islam</td>
+                            <th style="width:20%">Ref Case No:</th>
+                            <td style="width:30%">DCMS-108433#07</td>
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Background Of Case File:</th>
+                            <td style="width:30%" colspan="3"></td>
+                        </tr>
+
+                    </table>
+                    <br />
+                    <table class="table-responsive" style="width:100%">
+                        <tr style="">
+                            <td colspan="4" style="background: antiquewhite;">
+                                <h4 style="text-align:center;color:black;">Case Activity</h4>
+                            </td>
+                        </tr>
+                        <tr style="">
+                            <table style="width:100%">
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                </tr>
+                                <tr>
+                                    <td>Appearance</td>
+                                    <td>01 Feb, 2021</td>
+                                    <td>--------------</td>
+                                </tr>
+                                <tr>
+                                    <td>Summons Issuance</td>
+                                    <td>10 Apr, 2021</td>
+                                    <td>--------------</td>
+                                </tr>
+                                <tr>
+                                    <td>Warrant Issuance</td>
+                                    <td>19 Apr, 2021</td>
+                                    <td>--------------</td>
+                                </tr>
+                                <tr>
+                                    <td>Warrant of Proclamation and Attachment</td>
+                                    <td>30 May, 2021</td>
+                                    <td>--------------</td>
+                                </tr>
+
+                            </table>
+                        </tr>
+                    </table>
+                    <br />
+                    <table class="table-responsive" style="width:100%">
+                        <tr style="">
+                            <td colspan="4" style="background: antiquewhite;">
+                                <h4 style="text-align:center;color:black;">Judgement [Against Govt]</h4>
+                            </td>
+                        </tr>
+                        <tr style="">
+                            <td>
+                                There seems no plausible way to conclude that Section 79 is referring to Ex-Bond document and consequently
+                                it is clear that the value of goods and the rate of duty shall be the one prevailing at the time of presenting
+                                the In-Bond Bill of Entry and not the Ex-Bond Bill of Entry document and once the In-Bond Bill of Entry is submitted
+                                any subsequent development in case of determination of value or any redetermination of rate of duty or taxes, shall
+                                not affect the value of the concern goods or the rate of duty for the purpose of payment of duties and charges.
+                            </td>
+                        </tr>
+                    </table>
+                    <br />
+                    <table class="table-responsive" style="width:100%">
+                        <tr style="">
+                            <td colspan="4" style="background: antiquewhite;">
+                                <h4 style="text-align:center;color:black;">Attachments</h4>
+                            </td>
+                        </tr>
+                        <tr style=""><td style="color:blue;text-decoration:underline;cursor:pointer;">1. রুল কপি</td></tr>
+                        <tr style=""><td style="color:blue;text-decoration:underline;cursor:pointer;">2. পিটিশন কপি</td></tr>
+                        <tr style=""><td style="color:blue;text-decoration:underline;cursor:pointer;">3. ইন্টেরিয়াম কপি</td></tr>
+                        <tr style=""><td style="color:blue;text-decoration:underline;cursor:pointer;">4. Stay Order</td></tr>
+                        <tr style=""><td style="color:blue;text-decoration:underline;cursor:pointer;">5. Direction</td></tr>
+                    </table>
+                    <table class="table-responsive" style="width:100%">
+                        <tr style="">
+                            <td colspan="4" style="background: antiquewhite;">
+                                <h4 style="text-align:center;color:black;">Case Ref. Summary</h4>
+                            </td>
+                        </tr>
+                        <tr style="height:;">
+                            <table style="width:100%">
+                                <tr>
+                                    <th>Case No</th>
+                                    <th>Date</th>
+                                    <th>Court</th>
+                                    <th>Subject</th>
+                                    <th>Case Background</th>
+                                </tr>
+                                <tr>
+                                    <td style="color:blue;text-decoration:underline;cursor:pointer;" onclick="location.href='/Reports/rpt_CaseReport'">
+                                        DCMS-108433#07
+                                    </td>
+                                    <td>01 Feb, 2020</td>
+                                    <td>Labour Court</td>
+                                    <td> Deduction of wages of workers illegally </td>
+                                    <td> The learned Judge asked to freeze the bank account and therefore a counter suit was filed</td>
+                                </tr>
+                            </table>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+</body>
+

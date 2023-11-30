@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Numerics;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DIFECMS.Domain.ViewModel.Report
+{
+    public class OfficeAndCourtWiseReportVM
+    {
+        public int IssueYearFrom { get; set; }
+        public int IssueYearTo { get; set; }
+        public Int64 OfficeId { get; set; }
+        public Int64 MinistryOrDepartmentId { get; set; }
+        public Int64 CourtTypeId { get; set; }
+        public Int64 caseStatus { get; set; }
+
+    }
+}

@@ -1,0 +1,169 @@
+﻿using DIFECMS.Domain.Models;
+using DIFECMS.Domain.ViewModel.Report;
+using DIFECMS.Service.Contracts;
+using DIFECMS.Service.Contracts.Configuration;
+using DIFECMS.Service.Implementations;
+using Microsoft.AspNetCore.Mvc;
+using DIFECMS.Common;
+using Newtonsoft.Json;
+using System.Data;
+using System.Text;
+using DIFECMS.Domain.ViewModel;
+using DIFECMS.Domain.ViewModel.Case;
+
+namespace DIFECMS.Web.Controllers.CaseManagement
+{
+    public class ReportController : Controller
+    {
+        private readonly IReportFacade _reportFacade;
+        private readonly ICaseActivityFacade _caseActivityFacade;
+        private readonly ICaseFacade _caseFacade;
+        private readonly IMinistryOrDepartmentFacade _ministryOrDepartmentFacade;
+        private readonly IOfficeFacade _officeFacade;
+        public ReportController(IReportFacade reportFacade, ICaseActivityFacade caseActivityFacade, ICaseFacade caseFacade,
+            IMinistryOrDepartmentFacade ministryOrDepartmentFacade, IOfficeFacade officeFacade)
+        {
+            _reportFacade = reportFacade;
+            _caseActivityFacade = caseActivityFacade;
+            _caseFacade = caseFacade;
+            _officeFacade = officeFacade;
+            _ministryOrDepartmentFacade = ministryOrDepartmentFacade;
+        }
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult OfficeAndCourtWiseReportView()
+        {
+            return View();
+        }
+        public IActionResult OfficeAndCourtWiseReportMaster()
+        {
+            return View();
+        }
+        public IActionResult OfficeAndCourtWiseReportViewDetail()
+        {
+            return View();
+        }
+        public IActionResult CaseList()
+        {
+            return View();
+        }
+        public IActionResult CaseListDetails()
+        {
+            return View();
+        }
+        public IActionResult ReportSearchResult(CaseListSearch caseListFilter)
+        {
+            var user = User.Claims.ToList();
+            //bool isAuthorized = Convert.ToBoolean(HttpContext.Items["isAuthorized"]);
+            var Creator = Convert.ToInt64(user[1].Value);
+            caseListFilter.CreatorId = Creator;
+            if (caseListFilter.CaseNo == null)
+            {
+                caseListFilter.CaseNo = "";
+            }
+            if (caseListFilter.IssueDateFrom == null)
+            {
+                caseListFilter.IssueDateFrom = "";
+            }
+            if (caseListFilter.IssueDateTo == null)
+            {
+                caseListFilter.IssueDateTo = "";
+            }
+            if (caseListFilter.CreationDateFrom == null)
+            {
+                caseListFilter.CreationDateFrom = "";
+            }
+            if (caseListFilter.CreationDateTo == null)
+            {
+                caseListFilter.CreationDateTo = "";
+            }
+            return Json(_reportFacade.GetCaseList(caseListFilter));
+        }
+        public IActionResult SearchResult(OfficeAndCourtWiseReportVM officeAndCourtWiseReportVM)
+        {
+            var user = User.Claims.ToList();
+
+            if (officeAndCourtWiseReportVM.IssueYearFrom == 0)
+            {
+                officeAndCourtWiseReportVM.IssueYearFrom = -1;
+            }
+            if (officeAndCourtWiseReportVM.IssueYearTo == 0)
+            {
+                officeAndCourtWiseReportVM.IssueYearTo = -1;
+            }
+            bool isAuthorized = Convert.ToBoolean(HttpContext.Items["isAuthorized"]);
+            var Creator = Convert.ToInt64(user[1].Value);
+            var result = DataTableToJSONWithStringBuilder(_reportFacade.GetOfficeAndCourtWiseReport(officeAndCourtWiseReportVM));
+            return Json(result);
+        }
+
+        public string DataTableToJSONWithStringBuilder(DataTable table)
+        {
+            var JSONString = new StringBuilder();
+            if (table.Rows.Count > 0)
+            {
+                JSONString.Append("[");
+                for (int i = 0; i < table.Rows.Count; i++)
+                {
+                    JSONString.Append("{");
+                    for (int j = 0; j < table.Columns.Count; j++)
+                    {
+                        if (j < table.Columns.Count - 1)
+                        {
+                            JSONString.Append("\"" + table.Columns[j].ColumnName.ToString() + "\":" + "\"" + table.Rows[i][j].ToString() + "\",");
+                        }
+                        else if (j == table.Columns.Count - 1)
+                        {
+                            JSONString.Append("\"" + table.Columns[j].ColumnName.ToString() + "\":" + "\"" + table.Rows[i][j].ToString() + "\"");
+                        }
+                    }
+                    if (i == table.Rows.Count - 1)
+                    {
+                        JSONString.Append("}");
+                    }
+                    else
+                    {
+                        JSONString.Append("},");
+                    }
+                }
+                JSONString.Append("]");
+            }
+            return JSONString.ToString();
+        }
+
+        public JsonResult GetReportData(Int64 id)
+        {  
+            var res = new
+            {
+                caseRepondentPerson = _caseFacade.GetCaseRepondentPersonOrOrg(id),
+                caseRespondent =_caseFacade.GetRespondentOfficeData(id),
+                caseInfo = _reportFacade.GetCaseReport(id),
+                caseActivityByCaseId = _caseActivityFacade.GetAllActivityByCaseId(id),
+                caseDocument = _caseFacade.GetCaseDocuments(id)
+            };
+            return Json(res);
+        }
+
+        public JsonResult OfficeAndCourtWiseReport()
+        {
+            var user = User.Claims.ToList();
+            bool isAuthorized = Convert.ToBoolean(HttpContext.Items["isAuthorized"]);
+            var Creator = Convert.ToInt64(user[1].Value);
+            var res = new
+            {
+                officeAndMinistryOrDepartment = _officeFacade.GetUserBasedOffice(Creator),
+            };
+            return Json(res);
+        }
+
+        public JsonResult OfficeAndCourtWiseReportDetails(OfficeAndCourtWiseReportVM officeAndCourtWiseReportVM)
+        {
+            var officeAndCourtDetail = _reportFacade.GetOfficeAndCourtWiseReportDetail(officeAndCourtWiseReportVM);
+            return Json(officeAndCourtDetail);
+        }
+
+    }
+}

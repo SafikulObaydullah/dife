@@ -1,0 +1,343 @@
+﻿@{
+    ViewBag.Title = "CaseEntry";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Assets/lib/CommonUI/js/CaseManagementDataFile.js?v=@DateTime.Now.ToString("yymmddHHmmss")"></script>
+<script src="~/Assets/lib/CommonUI/js/CaseManagement/Case.js?v=@DateTime.Now.ToString("yymmddHHmmss")"></script>
+<script src="~/assets/lib/commonui/js/casemanagement/casedocumentsdownload.js?v=@DateTime.Now.ToString("yymmddHHmmss")"></script>
+<style>
+    body span {
+        color: black;
+        font-weight: bold;
+    }
+
+    .k-step-text {
+        white-space: break-spaces !important;
+    }
+
+    .k-upload-files {
+        display: block;
+    }
+
+    .k-grid td {
+        text-align: left;
+    }
+
+    .fieldlist li {
+        list-style: none;
+        padding-bottom: 1em;
+    }
+
+    .card {
+        --border-radius: 0.75rem;
+        --primary-color: #7257fa;
+        --secondary-color: #3c3852;
+        width: 100%;
+        font-family: "Arial";
+        padding: 1rem;
+        cursor: pointer;
+        border-radius: var(--border-radius);
+        background: #f1f1f3;
+        box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 3%);
+        position: relative;
+    }
+
+        .card > * + * {
+            margin-top: 1.1em;
+        }
+
+        .card .card__content {
+            color: var(--secondary-color);
+            font-size: 0.86rem;
+        }
+
+        .card .card__title {
+            padding: 0;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+
+        .card .card__date {
+            color: #6e6b80;
+            font-size: 0.8rem;
+        }
+
+        .card .card__arrow {
+            position: absolute;
+            background: var(--primary-color);
+            padding: 0.4rem;
+            border-top-left-radius: var(--border-radius);
+            border-bottom-right-radius: var(--border-radius);
+            bottom: 0;
+            right: 0;
+            transition: 0.2s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card svg {
+            transition: 0.2s;
+        }
+
+        /* hover */
+        .card:hover .card__title {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+
+        .card:hover .card__arrow {
+            background: #111;
+        }
+
+            .card:hover .card__arrow svg {
+                transform: translateX(3px);
+            }
+
+    @@media (min-width: 768px) {
+        .col-md-6 {
+            flex: 0 0 auto;
+            width: 47%;
+        }
+
+        .col-md-12 {
+            flex: 0 0 auto;
+            width: 96%;
+        }
+    }
+
+    .fab {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+    }
+</style>
+<div class="main_content_iner pt-0" style="padding:0 2px">
+    <div class="container-fluid p-0">
+
+        <div class="row">
+            <div id="tabstrip">
+                <ul>
+                    <li class="k-active">
+                        GENERAL INFORMATION
+                    </li>
+                    <li>
+                        RESPONDENT INFORMATION
+                    </li>
+                    <li>
+                        ATTACHMENTS
+                    </li>
+                </ul>
+                <div>
+                    <div class="row">
+                        <span id="spanCaseID" style="display:none">0</span>
+                        <div class=" col-md-6 mb-3">
+                            <span class="text-danger">**</span><span>Court Type</span> <input id="ddlCourtType" style="width:100%" />
+                        </div>
+
+                        <div class=" col-md-6 mb-3">
+                            <span class="text-danger">**</span><span>Court Name</span> <input id="ddlCourt" style="width:100%" required />
+                        </div>
+
+                        <div class=" col-md-6 mb-3">Case Issue Date
+                     <span class="text-danger">**</span><span>Case Category</span> <input id="ddlCaseCategory" placeholder="MM/DD/YYYY" style="width:100%" />
+                        </div>
+                        <div class=" col-md-6 mb-3">
+                            <span class="text-danger">**</span><span>Case Type</span> <input id="ddlCaseType" style="width:100%" />
+                        </div>
+
+                        <div class=" col-md-6 mb-3">
+                            <span>Case No/Writ Petition No</span> <input id="caseNo" class="textbox" style="width:100%" />
+                        </div>
+
+                        <div class=" col-md-6 mb-3">
+                            <span class="text-danger">**</span><span>Case Issue Date</span> <input id="issueDate" placeholder="MM/DD/YYYY" class="Kdatepicker" style="width:100%" />
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                           <span class="text-danger">**</span><span>Case Section(ধারা)</span> <input id="txtCaseSection" class="Ktextarea" style="width:100%" />
+                        </div>
+
+                        <div class=" col-md-6 mb-3">
+                            <span id="caseNatureValue" style="display: none">0</span>
+                            <span class="text-danger">**</span><span>Case Nature</span> <input id="ddlCaseNature" style="width:100%" />
+                        </div>
+
+                        <div class=" col-md-12 mb-3">
+                            <span class="text-danger">**</span><span>Case Subject</span> <textarea id="caseSubject" class="Ktextarea" style="width:100%"></textarea>
+                        </div>
+
+                        <div class="col-md-12 mb-3">
+                            <span class="text-danger">**</span><span>Case Petitioner(বাদী)</span><textarea id="casePetitioner" class="Ktextarea" style="width:100%"></textarea>
+                        </div>
+
+                        <div class="col-md-12 mb-3">
+                            <span>Background Of Case File</span><textarea id="backgroundOfCase" class="Ktextarea" style="width:100%"></textarea>
+                        </div>
+                        <div class=" col-md-12 mb-3">
+                            <span class="text-danger">**</span><span>Case Description(আরজি)</span><textarea id="caseDescription" class="Ktextarea" style="width:100%"></textarea>
+                        </div>
+                        <div class=" col-md-6 mb-3">
+                            <span class="text-danger">**</span><span>Case Status</span> <input id="ddlCaseStatus" class="comboBox" style="width:100%" />
+                        </div>
+
+                        <div class=" col-md-6 mb-3">
+                            <span class="text-danger">**</span><span>Case Priority</span> <input id="ddlCasePriority" class="comboBox" style="width:100%" />
+                        </div>
+
+                        <div class=" col-md-6 mb-3">
+                            <span class="text-danger">**</span><span>Govt. Lawyer</span><input id="ddlLawyer" class="comboBox" style="width:100%" />
+                        </div>
+                        <div class=" col-md-6">
+                            <span>Ref. Case No's</span>
+                            <input style="width:100%;background-color: white; " placeholder="Search by reference case no" id="ddlCaseRefNo"   />
+                            <span id="referenceInfo"></span>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                     <span>Next Hearing Date</span> <input id="txtNextHearingDate" placeholder="MM/DD/YYYY" class="Kdatepicker" style="width:100%" />
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <span>Next Hearing Description</span> <input id="txtNextHearingDescription" class="textbox" style="width:100%" />
+                        </div>
+                        <div class="col-md-12 mb-3" style="text-align: right; margin-right: -10px;">
+                            <button id="btnReport" class="btn btn-primary mt-3 mb-3" onclick="Report()">Report</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-md-12 mb-3">
+                            <div class="modal-content cs_modal">
+                                <div class="modal-header  theme_bg_mainpage_modal_header">
+                                    <h7 class="modal-title">Name of Respondent Person(s)/Establishment</h7>
+                                </div>
+                                <div class="row">
+                                    <span id="respondentPersonId" style="display: none">0</span>
+                                    <div class=" col-md-6 mb-3">
+                                             <span class="text-danger">**</span><span>Category</span> <input id="ddlRespondentCategory" style="width:100%" />
+                                    </div>
+                                    <div class=" col-md-6 mb-3">
+                                           <span class="text-danger">**</span><span>Name of Respondent</span> <input id="txtRespondentName" class="textbox" style="width:100%" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class=" col-md-6 mb-3" id="designationDiv" style="display: none">
+                                           <span class="text-danger">**</span><span>Designation</span> <input id="txtDesignation" class="textbox" style="width:100%" />
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                         <span class="text-danger">**</span><span>Address</span> <input id="txtAddress" class="textbox" style="width:100%" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span class="text-danger">**</span><span>Type of Establishment/Organization</span> <input id="txtEstablishmentInfo" class="textbox" style="width:100%" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span class="text-danger">**</span><span>Repondent As</span><input id="ddlRespondentAs" class="comboBox" style="width: 100%" />
+                                    </div>
+                                    <div class="col-md-12 flex-horizon-end">
+                                        <button id="btnAddRespondentPerson" class="btn btn-success mt-3 mb-3" onclick="AddRespondentToList()">Add</button>
+                                    </div>
+                                    <div class="col-md-12 mb-3">
+                                        <div id="respondentPersonGrid"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <div class="modal-content cs_modal">
+                                <div class="modal-header  theme_bg_mainpage_modal_header">
+                                    <h7 class="modal-title">Responsible Person</h7>
+                                </div>
+                                <div class="row">
+                                    <div class=" col-md-6 mb-3">
+                                        <span class="text-danger">**</span><span>Department</span> <input id="ddlConcernedDepartment" class="comboBox" style="width:100%" />
+                                    </div>
+                                    <div class=" col-md-6 mb-3">
+                                        <span class="text-danger">**</span><span>Office</span> <input id="ddlConOff" class="comboBox" style="width:100%" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class=" col-md-6 mb-3">
+                                        <span class="text-danger">**</span><span>Person</span> <input id="ddlConPer" class="comboBox" style="width:100%" />
+                                    </div>
+                                    <div class=" col-md-6 mb-3">
+                              <span class="text-danger">**</span><span>Date of Assignment of Responsibility</span> <input id="dateOfResponsibility" class="Kdatepicker" placeholder="MM/DD/YYYY" style="width:100%" />
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12" id="mdlRespondentOffice" style="display: none">
+                            <div class="modal-content cs_modal">
+                                <div class="modal-header  theme_bg_mainpage_modal_header">
+                                    <h7 class="modal-title">Name of Respondent Office(s)</h7>
+                                </div>
+                                <div class="row">
+                                    <span id="caseRepondentOfficeId" style="display:none"></span>
+                                    <div class=" col-md-6 mb-3">
+                                        <span class="text-danger">**</span><span>Respondent Department</span> <input id="ddlRespondentDepartment" class="comboBox" style="width:100%" />
+                                    </div>
+                                    <div class=" col-md-6 mb-3">
+                                        <span class="text-danger">**</span><span>Respondent Office</span> <input id="ddlRespondentOffice" class="comboBox" style="width:100%" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class=" col-md-6 mb-3">
+                                        <span class="text-danger">**</span><span>Respondent Type</span> <input id="ddlRespondentType" class="comboBox" style="width:100%" />
+                                    </div>
+                                    <div class="col-md-12 flex-horizon-end">
+                                        <button class="btn btn-success mt-3 mb-3" id="respondentOfficeBtn" onclick="AddRespondentOffice()">Add</button>
+                                    </div>
+                                    <div class="col-md-12 mb-3" id="respondentTable">
+                                        <div id="respondentGrid"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="modal-content cs_modal">
+                                <div class="modal-header  theme_bg_mainpage_modal_header">
+                                    <h7 class="modal-title">Upload New Document</h7>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <span>Document Type</span> <input id="ddlDocumentType" style="width:100%" />
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <span>Description</span> <input id="txtDocDescription" class="textbox" style="width:100%" />
+                                    </div>
+                                    <div class="col-md-3">
+                              <span>Issue Date</span> <input id="txtIssueDate" class="Kdatepicker" placeholder="MM/DD/YYYY" style="width:100%" />
+                                    </div>
+                                    <div class="col-md-6" style="margin-top: 17px;">
+                                        <span></span> <input name="caseDocfiles" id="caseDocfiles" type="file" aria-label="caseDocfiles" />
+                                    </div>
+                                    <div class="col-md-2" style="margin-top:17px; padding-right: 0px">
+                                        <button class="btn btn-success mr-2" onclick="SaveCaseDocuments()">Upload </button>
+                                        <button class="btn btn-danger" onclick="ClearCaseDocuments()">Clear</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span id="docParentId" style="display:none">0</span>
+                            <div id="gridCaseDocuments" style="display:none"></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <button id="fab" onclick="Save()"></button>
+    </div>
+</div>

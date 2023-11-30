@@ -1,0 +1,320 @@
+﻿@{
+    ViewBag.Title = "Office and Court-wise case";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    td {
+        padding: 5px
+    }
+
+    th {
+        text-align: center;
+        padding: 5px
+    }
+</style>
+<div class="main_content_iner ">
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="modal-content cs_modal">
+                    <div class="modal-header justify-content-center theme_bg_mainpage_modal_header">
+                        <h5 class="modal-title">OFFICE AND COURT-WISE CASE </h5>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-12">
+                            <table class="table-bordered table-sm table-hover" style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <th style="font-size: 20px; background: #e2efda; color: #bb0000 !important; " colspan="25">
+                                            Office and Court-wise case
+                                            Year: 2020 - 2023
+                                        </th>
+
+                                    </tr>
+                                    <tr>
+                                        <th style="" rowspan="2">SL</th>
+                                        <th style="" rowspan="2">Office</th>
+                                        <th style="" colspan="3">Labour Court</th>
+                                        <th style="" colspan="3">Labour Appellate Tribunal</th>
+                                        <th style="" colspan="3">Administration Tribubal</th>
+                                        <th style="" colspan="3">Administration Appellate Tribubal</th>
+                                        <th style="" colspan="3">District Court</th>
+                                        <th style="" colspan="3">High Court Division</th>
+                                        <th style="" colspan="3">Appellate  Division</th>
+                                        <th style="" rowspan="2">Total</th>
+                                    </tr>
+                                    <tr>
+                                        <th style="min-width: 50px">Closed</th>
+                                        <th style="">Open</th>
+                                        <th style="">Total</th>
+                                        <th style="">Closed</th>
+                                        <th style="">Open</th>
+                                        <th style="">Total</th>
+                                        <th style="">Closed</th>
+                                        <th style="">Open</th>
+                                        <th style="">Total</th>
+                                        <th style="">Closed</th>
+                                        <th style="">Open</th>
+                                        <th style="">Total</th>
+                                        <th style="">Closed</th>
+                                        <th style="">Open</th>
+                                        <th style="">Total</th>
+                                        <th style="">Closed</th>
+                                        <th style="">Open</th>
+                                        <th style="">Total</th>
+                                        <th style="">Closed</th>
+                                        <th style="">Open</th>
+                                        <th style="">Total</th>
+                                    </tr>
+                                    <tr>
+                                        <td style="">1</td>
+                                        <td style="">DIG office Dhaka</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="background: #f8e5ac">2535</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="">2</td>
+                                        <td style="">DIG office Narayanganj</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">355</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">25</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">145</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">23</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">55</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">123</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="background: #f8e5ac">1494</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="">3</td>
+                                        <td style="">DIG office</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">478</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">223</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">12</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">463</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">756</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">423</td>
+                                        <td style="background: #f8e5ac">2577</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="">4</td>
+                                        <td style="">DIG office Munshiganj</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">132</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">544</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">24</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">23</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">178</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">245</td>
+                                        <td style="background: #f8e5ac">1914</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="">5</td>
+                                        <td style="">DIG office Tangail</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">643</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">234</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">67</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">188</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">390</td>
+                                        <td style="background: #f8e5ac">2077</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="">6</td>
+                                        <td style="">DIG office Faridpur</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">296</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">79</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">4</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">65</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">78</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">34</td>
+                                        <td style="background: #f8e5ac">667</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="">7</td>
+                                        <td style="">DIG office Kishorganj</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">34</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">744</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">146</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">875</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">34</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">145</td>
+                                        <td style="background: #f8e5ac">2200</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="">8</td>
+                                        <td style="">DIG office Narsingdi</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">56</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">87</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">954</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">24</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">466</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">766</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">77</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="background: #f8e5ac">2430</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="">9</td>
+                                        <td style="">Office of the DIG, Gopalganj</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">78</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">233</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">56</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">768</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">111</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">333</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2" onclick="Report()">546</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #d9e1f2 " onclick="Report()">222</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">28</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">58</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">34</td>
+                                        <td style="color: blue; text-decoration: underline;cursor:pointer; background: #fce4d6" onclick="Report()">53</td>
+                                        <td style="background: #f8e5ac">540</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function Report() {
+        var url = '/Reports/SubReportReport2';
+        window.open(url, '_blank');
+    }
+</script>

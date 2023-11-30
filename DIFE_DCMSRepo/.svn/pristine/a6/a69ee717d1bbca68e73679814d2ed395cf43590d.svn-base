@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Permission Management";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="~/Assets/lib/CommonUI/js/PermissionManagement.js"></script>
+<div class="main_content_iner pt-0">
+    <div class="container-fluid p-0">
+        <div style="border-top: 1px solid #794c8a; padding: 0; background: white; border: 1px solid #7ea700; ">
+            <h4 style="padding: 5px; justify-content: center; display: flex; background: #acb6eb; color: white;" id="stepTitle">Permission Management Information</h4>
+            <div class="row" style="justify-content: right; margin-right: 13px;">
+                <div class="col-md-12">
+                    <div id="ex1">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <span>Name</span> <input id="name" style="width:100%" class="textbox" />
+                            </div>
+                            <div class="col-md-3">
+                                <span>Ministry/Department</span> <input id="ddlMinistryOrDepartment" style="width:100%" />
+                            </div>
+                            <div class="col-md-3">
+                                <span>Office</span> <input id="ddlOffice" style="width:100%" />
+                            </div>
+                            <div class="col-md-5">
+                                <span>Email</span> <input id="email" style="width:100%" class="textbox" />
+                            </div>
+                            <div class="col-md-4">
+                                <span>Phone</span> <input id="phone" style="width:100%" class="textbox" />
+                            </div>
+                            <div class="col-md-2" style="margin-top: 15px;">
+                                <button class="btn btn-info" onclick="SearchUser()" > Search </button>
+                            </div>
+                        </div>
+                        @*<div class="row">
+                            <div class="col-md-11" style="text-align: right; margin-left: -57px; margin-top: 15px;">
+                                
+                            </div>
+                        </div>*@
+                    </div>
+                    <div id="ex2">
+                        <div class="col-md-6">
+                            <span>User Name</span> <input id="ddlUser" style="width:100%" />
+                        </div>
+                    </div>
+                    <div id="ex3"class="mb-2">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="treeview-left"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-11" style="text-align: right; margin-left: -57px; margin-top: 15px;">
+                                <button class="btn btn-success" onclick="Save()"> Save </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

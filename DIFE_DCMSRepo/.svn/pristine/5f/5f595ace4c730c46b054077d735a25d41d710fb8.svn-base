@@ -1,0 +1,3 @@
+﻿@using DIFECMS.web
+@using DIFECMS.web.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers

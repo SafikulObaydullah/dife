@@ -1,0 +1,69 @@
+﻿using DIFECMS.Domain.Models.Configuration;
+using DIFECMS.Domain.ViewModel.Permission;
+using DIFECMS.Service.Contracts;
+using DIFECMS.Service.Contracts.Configuration;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+
+namespace DIFECMS.Web.Controllers
+{
+    [Authorize]
+    public class AdminController : Controller
+    {
+        private readonly IAdminFacade _adminFacade;
+        private readonly IMinistryOrDepartmentFacade _ministryOrDepartmentFacade;
+        private readonly IOfficeFacade _officeFacade;
+
+        public AdminController(IAdminFacade adminFacade, IMinistryOrDepartmentFacade ministryOrDepartmentFacade, IOfficeFacade officeFacade)
+        {
+            _adminFacade = adminFacade;
+            _ministryOrDepartmentFacade = ministryOrDepartmentFacade;
+            _officeFacade = officeFacade;
+        }
+        public ActionResult UserManagement()
+        {
+            return View();
+        }
+        public ActionResult PermissionManagement()
+        {
+            if (User.Claims.ToList()[2].Value != "3")
+            {
+                return View();
+            }
+            return RedirectToAction("Index","Home");  
+        }
+
+        public JsonResult GetUserBasedOnSearch(PermissionSearchVM permissionSearch)
+        {
+            return Json(_adminFacade.SearchPermission(permissionSearch));
+        }
+
+        public JsonResult GetPermissionDropdown()
+        {
+            var res = new
+            {
+                ministryOrDepartment = _ministryOrDepartmentFacade.Get(),
+                office = _officeFacade.Get()
+            };
+            return Json(res);
+        }
+
+        public JsonResult GetUserOfficePermission(Int64 Id)
+        {
+            var userReg = User.Claims.ToList();
+            var loginId = Int64.Parse(userReg[1].Value);
+            return Json(_adminFacade.UserOfficePermission(Id, loginId));
+        }
+
+        public ActionResult NotificationManagement()
+        {
+            return View();
+        }
+
+        public ActionResult AddOfficePermission(OfficePermissionAddVM officePermission)
+        {
+            var result = _adminFacade.AddOfficePermission(officePermission);
+            return Json(result);
+        }
+    }
+}

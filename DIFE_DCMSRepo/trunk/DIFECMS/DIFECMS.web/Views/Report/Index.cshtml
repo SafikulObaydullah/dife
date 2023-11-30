@@ -1,0 +1,263 @@
+﻿@{
+    ViewBag.Title = "Case";
+    Layout = null;
+}
+<title>@ViewBag.Title</title>
+<link href="~/assets/lib/kendoui/css/report/report-2.css" rel="stylesheet" />
+<link href="~/assets/lib/kendoui/css/report/report.css" rel="stylesheet" />
+<link href="~/assets/lib/kendoui/css/kendo.common.min.css" rel="stylesheet" />
+
+<script src="~/assets/lib/kendoui/js/jquery-3.5.1.min.js"></script>
+<script src="~/assets/lib/kendoui/js/kendo.all.min.js"></script>
+<script src="~/assets/lib/kendoui/js/moment.min.js"></script>
+<script src="~/assets/lib/kendoui/js/underscore-min.js"></script>
+<script src="~/assets/lib/kendoui/js/report-common.js"></script>
+
+<script src="~/assets/lib/commonui/js/casemanagement/rpt_caseentrydata.js?v=@DateTime.Now.ToString("yymmddHHmmss")"></script>
+
+<script src="~/assets/lib/commonui/js/casemanagement/casedocumentsdownload.js?v=@DateTime.Now.ToString("yymmddHHmmss")"></script>
+<style>
+    .parentCss {
+        background-color: #ffffff;
+    }
+
+    .ReportBorderL {
+        width: 12in;
+    }
+
+    th {
+        text-align: left;
+    }
+
+    @@media print {
+        .noprint {
+            visibility: hidden;
+        }
+    }
+
+    tbody, td, tfoot, th, thead, tr {
+        border-color: #c6c2c2;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    table {
+        caption-side: bottom;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <div class="col-md-12" align="center">
+        <div align="left" class="ReportBorder" style="min-height:890px;">
+            <table style="width: 100%;border: 0;">
+                <tbody>
+                    <tr style="border: 0;">
+                        <td style="border: 0;">
+                            <img src="~/assets/Login/images/GovernmentofBangladesh.png" style="width:100px;">
+                        </td>
+                        <td class="Company" style="border: 0;" colspan="2" id="CompanyName">
+                            <p style="font-size: 18px; font-weight: bold;padding:0;margin:0">
+                                Ministry of Labour and Employment
+                            </p>
+                            <p style="font-size: 20px; font-weight: bold; margin: 0"> (MOLE)</p>
+                            <br />
+                            <p style=" padding: 0; margin: 0">
+                                Ministry of Labour and Employment Bangladesh Secretariat, Dhaka
+                            </p>
+                            <p style=" padding: 0; margin: 0">
+                                Phone: +88-02-9515532
+                            </p>
+                            <p style=" padding: 0; margin: 0">
+                                E-mail: info@mole.gov.bd
+                            </p>
+                        </td>
+                        <td style="border: 0;">
+                            <img style="width:75px;margin-right: 15px;" />
+                        </td>
+                    </tr>
+                    <tr style="border: 0;">
+                        <td style="border: 0;">
+                        </td>
+                        <td style="border: 0;">
+                            <div align="center">
+                                <div class="ReportTitle" style="font-size: 13px; font-weight: bold; margin-bottom: 15px;">
+                                    <span id="spnReportTitle">Case Details</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td style="border: 0;">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <h3 id="nodata" style="text-align:center;color:red; font-size:15px; display:none;">No Case Data Found!</h3>
+            <section id="alldata" style="min-height:650px;">
+                <div id="tblCaseInfo">
+                    <table class="table-responsive" style="width:100%">
+                        <tr style="">
+                            <td colspan="4" style="background: antiquewhite;">
+                                <h4 style="text-align:center;color:black;">Genaral Information</h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Case Number:</th>
+                            <td style="width:30%" id="caseNo"></td>
+                            <th style="width:20%">Case Section: </th>
+                            <td style="width:30%" id="caseSection"></td>
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Court Type:</th>
+                            <td style="width:30%" id="courtType"></td>
+                            <th style="width:20%">Issue Date:</th>
+                            <td style="width:30%" id="issueDate"></td>
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Court:</th>
+                            <td style="width:30%" id="court"></td>
+                            <th style="width:20%">Case Category:</th>
+                            <td style="width:30%" id="caseCategory"></td>
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Case Type:</th>
+                            <td style="width:30%" id="caseType"></td>
+                            <th style="width:20%">Case Nature:</th>
+                            <td style="width:30%" id="caseNature"></td>
+
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Case Status:</th>
+                            <td style="width:30%" id="caseStatus"></td>
+                            <th style="width:20%">Case Subject:</th>
+                            <td style="width:30%" id="caseSubject"></td>
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Case Petitionor:</th>
+                            <td style="width:30%" id="casePetitioner"></td>
+                            <th style="width:20%">Case Description:</th>
+                            <td style="width:30%" id="description"></td>
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Principal Respondent:</th>
+                            <td style="width:30%" id="principalRespondent"></td>
+                            <th style="width:20%">Other  Respondent:</th>
+                            <td style="width:30%" id="otherRespondent"></td>
+                        </tr>
+                        @*---*@
+                        <tr>
+                            <th style="width:20%">Concern Office:</th>
+                            <td style="width:30%" id="concOffice"></td>
+                            <th style="width:20%">Concern Person:</th>
+                            <td style="width:30%" id="concPerson"></td>
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Govtment Lawyer:</th>
+                            <td style="width:30%" id="governmentLawyer"></td>
+                            <th style="width:20%">Ref Case No:</th>
+                            <td style="width:30%" id="referenceCaseNo"></td>
+                        </tr>
+                        <tr>
+                            <th style="width:20%">Background Of Case File:</th>
+                            <td style="width:30%" colspan="3" id="background"></td>
+                        </tr>
+
+                    </table>
+                    <br/>
+                     <table class="table-responsive" id="caseRespondentPersonTable" style="width:100%;">
+                        <tr style="">
+                              <td colspan="6" style="background: antiquewhite;">
+                                 <h4 style="text-align:center;color:black;">Name of Respondent Person(s)/Establishment</h4>
+                              </td>
+                        </tr>
+                     </table>
+                     <table class="table-responsive" id="caseRespondentOfficeTable" style="width:100%;">
+                        <tr style="">
+                           <td colspan="2" style="background: antiquewhite;">
+                                 <h4 style="text-align:center;color:black;">Name of Respondent Office(s)</h4>
+                           </td>
+                        </tr>
+                     </table>
+
+                    <br />
+                    <table class="table-responsive" style="width:100%">
+                        <tr style="">
+                            <td colspan="4" style="background: antiquewhite;">
+                                <h4 style="text-align:center;color:black;">Case Activity</h4>
+                            </td>
+                        </tr>
+                        <tr style="">
+                            <table style="width:100%" id="activityTable">
+                               @* <tr>
+                                    <th>Type</th>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                </tr>*@
+                                @*<tr>
+                                    <td>Appearance</td>
+                                    <td>01 Feb, 2021</td>
+                                    <td>--------------</td>
+                                </tr>
+                                <tr>
+                                    <td>Summons Issuance</td>
+                                    <td>10 Apr, 2021</td>
+                                    <td>--------------</td>
+                                </tr>
+                                <tr>
+                                    <td>Warrant Issuance</td>
+                                    <td>19 Apr, 2021</td>
+                                    <td>--------------</td>
+                                </tr>
+                                <tr>
+                                    <td>Warrant of Proclamation and Attachment</td>
+                                    <td>30 May, 2021</td>
+                                    <td>--------------</td>
+                                </tr>*@
+
+                            </table>
+                        </tr>
+                    </table>
+                    <br />
+                    <table class="table-responsive"  id="judgement" style="width:100%; display:none">
+                        <tr style="">
+                            <td colspan="4" style="background: antiquewhite;">
+                                <h4 style="text-align:center;color:black;">Judgement [Against Govt]</h4>
+                            </td>
+                        </tr>
+                        @*<tr style="">
+                            <td></td>
+                        </tr>*@
+                    </table>
+                    <br/>
+                    <table class="table-responsive" style="width:100%">
+                        <tr style="">
+                            <td colspan="4" style="background: antiquewhite;">
+                                <h4 style="text-align:center;color:black;">Attachments</h4>
+                            </td>
+                        </tr>
+                        <tr style="">
+                            <table style="width:100%" id="attachmentTable">
+                               
+                             </table>
+                        </tr>
+                    </table>
+                    <br />
+                    <table class="table-responsive" style="width:100%" id="caseRefTable">
+                        <tr style="">
+                            <td colspan="4" style="background: antiquewhite;">
+                                <h4 style="text-align:center;color:black;">Case Ref. Summary</h4>
+                            </td>
+                        </tr>
+                        <tr style="">
+                            <table style="width:100%" id="referenceTable">
+                               
+                            </table>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+</body>
+

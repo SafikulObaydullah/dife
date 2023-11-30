@@ -1,0 +1,3085 @@
+{
+  "Files": [
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DIFECMS.web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DIFECMS.web.bundle.scp.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\css\\metisMenu.css",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\css\\metisMenu.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\css\\style.css",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\css\\style.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\css\\summernote-bs4.css",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\css\\summernote-bs4.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\img\\client_img.png",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\img\\client_img.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\img\\client_img_old.png",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\img\\client_img_old.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\img\\icon2\\1.svg",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\img\\icon2\\1.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\img\\icon2\\2.svg",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\img\\icon2\\2.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\img\\icon2\\3.svg",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\img\\icon2\\3.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\img\\icon2\\4.svg",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\img\\icon2\\4.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\img\\icon2\\5.svg",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\img\\icon2\\5.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\img\\icon2\\6.svg",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\img\\icon2\\6.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\img\\icon2\\7.svg",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\img\\icon2\\7.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\img\\icon\\bell.svg",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\img\\icon\\bell.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\img\\icon\\calender_icon.svg",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\img\\icon\\calender_icon.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\img\\line_img.png",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\img\\line_img.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\img\\logo.png",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\img\\logo.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\img\\menu-icon\\dashboard.svg",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\img\\menu-icon\\dashboard.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\img\\mini_logo.png",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\img\\mini_logo.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\js\\Chart.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\js\\custom.js",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\js\\custom.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\js\\dashboard_init.js",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\js\\dashboard_init.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\js\\jquery.barfiller.js",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\js\\jquery.barfiller.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\js\\metisMenu.js",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\js\\metisMenu.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\js\\popper.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\apex_chart\\apex-chart2.js",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\apex_chart\\apex-chart2.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\apex_chart\\apex_dashboard.js",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\apex_chart\\apex_dashboard.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\datatable\\css\\buttons.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\datatable\\css\\buttons.dataTables.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\datatable\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\datatable\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\datatable\\css\\responsive.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\datatable\\css\\responsive.dataTables.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\font_awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\font_awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\font_awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\font_awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\gijgo\\gijgo.min.css",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\gijgo\\gijgo.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\material_icon\\material-icons.css",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\material_icon\\material-icons.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\morris\\morris.css",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\morris\\morris.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\niceselect\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\niceselect\\css\\nice-select.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\niceselect\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\niceselect\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\scroll\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\scroll\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\scroll\\scrollable-custom.js",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\scroll\\scrollable-custom.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\scroll\\scrollable.css",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\scroll\\scrollable.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\text_editor\\summernote-bs4.css",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\text_editor\\summernote-bs4.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\themefy_icon\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\themefy_icon\\fonts\\themify.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\themefy_icon\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\themefy_icon\\fonts\\themify.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\themefy_icon\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\themefy_icon\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\themefy_icon\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\themefy_icon\\fonts\\themify.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BNACWC_MASTER\\vendors\\themefy_icon\\themify-icons.css",
+      "PackagePath": "staticwebassets\\Assets\\BNACWC_MASTER\\vendors\\themefy_icon\\themify-icons.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\css\\vertical-layout-light\\style.css",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\css\\vertical-layout-light\\style.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\css\\vertical-layout-light\\style.min.css",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\css\\vertical-layout-light\\style.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Bold.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Bold.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Bold.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Bold.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Bold.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Bold.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Bold.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Bold.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-ExtraBold.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-ExtraBold.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-ExtraBold.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-ExtraBold.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-ExtraBold.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-ExtraBold.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-ExtraBold.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-ExtraLight.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-ExtraLight.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-ExtraLight.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-ExtraLight.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-ExtraLight.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-ExtraLight.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-ExtraLight.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Light.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Light.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Light.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Light.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Light.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Light.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Light.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Light.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Medium.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Medium.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Medium.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Medium.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Medium.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Medium.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Medium.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Medium.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Regular.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Regular.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Regular.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Regular.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Regular.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Regular.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Regular.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-Regular.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-SemiBold.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-SemiBold.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-SemiBold.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-SemiBold.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-SemiBold.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-SemiBold.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Manrope\\Manrope-SemiBold.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Black.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Black.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Black.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Black.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Black.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Black.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Black.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Black.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Bold.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Bold.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Bold.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Bold.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Bold.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Bold.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Bold.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Bold.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-ExtraBold.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-ExtraBold.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-ExtraBold.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-ExtraBold.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-ExtraBold.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-ExtraBold.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-ExtraBold.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-ExtraLight.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-ExtraLight.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-ExtraLight.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-ExtraLight.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-ExtraLight.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-ExtraLight.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-ExtraLight.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Italic.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Italic.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Italic.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Italic.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Italic.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Italic.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Italic.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Italic.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Light.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Light.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Light.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Light.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Light.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Light.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Light.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Light.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Regular.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Regular.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Regular.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Regular.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Regular.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Regular.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Regular.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-Regular.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-SemiBold.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-SemiBold.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-SemiBold.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-SemiBold.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-SemiBold.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-SemiBold.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Nunito\\Nunito-SemiBold.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Black.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Black.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Black.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Black.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Black.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Black.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Black.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Black.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Bold.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Bold.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Bold.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Bold.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Bold.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Light.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Light.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Light.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Light.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Light.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Light.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Light.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Medium.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Medium.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Medium.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Medium.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Medium.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Regular.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Regular.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Regular.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Regular.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\Roboto\\Roboto-Regular.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\fonts\\SolaimanLipi_20-04-07.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\fonts\\SolaimanLipi_20-04-07.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\images\\favicon.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\images\\logo_govt.png",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\images\\logo_govt.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\images\\logo_govt_icon-2.webp",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\images\\logo_govt_icon-2.webp"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\images\\logo_govt_icon.ico",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\images\\logo_govt_icon.ico"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\images\\logo_govt_icon.png",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\images\\logo_govt_icon.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\images\\logo_govt_icon.webp",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\images\\logo_govt_icon.webp"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\images\\sprites\\blue.png",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\images\\sprites\\blue.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\images\\sprites\\dark.png",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\images\\sprites\\dark.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\images\\sprites\\flag.png",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\images\\sprites\\flag.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\images\\sprites\\green.png",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\images\\sprites\\green.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\images\\sprites\\jsgrid-icons.png",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\images\\sprites\\jsgrid-icons.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\images\\sprites\\red.png",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\images\\sprites\\red.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\images\\sprites\\yellow.png",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\images\\sprites\\yellow.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\images\\user.ico",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\images\\user.ico"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\images\\user.jpg",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\images\\user.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\images\\user.png",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\images\\user.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\js\\off-canvas.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\js\\template.js",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\js\\template.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\vendors\\feather\\feather.css",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\vendors\\feather\\feather.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\vendors\\feather\\fonts\\feather-webfont.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\vendors\\feather\\fonts\\feather-webfont.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\vendors\\feather\\fonts\\feather-webfont.svg",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\vendors\\feather\\fonts\\feather-webfont.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\vendors\\feather\\fonts\\feather-webfont.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\vendors\\feather\\fonts\\feather-webfont.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\vendors\\feather\\fonts\\feather-webfont.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\vendors\\feather\\fonts\\feather-webfont.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\vendors\\js\\UnlockMaster.js",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\vendors\\js\\UnlockMaster.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\vendors\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\vendors\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\vendors\\js\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\vendors\\js\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\vendors\\ti-icons\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\vendors\\ti-icons\\css\\themify-icons.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\vendors\\ti-icons\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\vendors\\ti-icons\\fonts\\themify.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\vendors\\ti-icons\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\vendors\\ti-icons\\fonts\\themify.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\vendors\\ti-icons\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\vendors\\ti-icons\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\BidaMaster\\vendors\\ti-icons\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\Assets\\BidaMaster\\vendors\\ti-icons\\fonts\\themify.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\css\\PasswordEnforcement.css",
+      "PackagePath": "staticwebassets\\Assets\\Login\\css\\PasswordEnforcement.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\css\\PasswordEnforcement.min.css",
+      "PackagePath": "staticwebassets\\Assets\\Login\\css\\PasswordEnforcement.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Assets\\Login\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\Assets\\Login\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\css\\style.css",
+      "PackagePath": "staticwebassets\\Assets\\Login\\css\\style.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\images\\Image-BG_1.png",
+      "PackagePath": "staticwebassets\\Assets\\Login\\images\\Image-BG_1.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\images\\Image-BG_2.png",
+      "PackagePath": "staticwebassets\\Assets\\Login\\images\\Image-BG_2.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\images\\Image_3.png",
+      "PackagePath": "staticwebassets\\Assets\\Login\\images\\Image_3.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\images\\Image_3.webp",
+      "PackagePath": "staticwebassets\\Assets\\Login\\images\\Image_3.webp"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\images\\Image_3_old.png",
+      "PackagePath": "staticwebassets\\Assets\\Login\\images\\Image_3_old.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\images\\Image_3_old_2.png",
+      "PackagePath": "staticwebassets\\Assets\\Login\\images\\Image_3_old_2.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\images\\Image_B_3.png",
+      "PackagePath": "staticwebassets\\Assets\\Login\\images\\Image_B_3.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\images\\bg_1.png",
+      "PackagePath": "staticwebassets\\Assets\\Login\\images\\bg_1.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\images\\bnacwc-logo.png",
+      "PackagePath": "staticwebassets\\Assets\\Login\\images\\bnacwc-logo.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\images\\bnacwc.png",
+      "PackagePath": "staticwebassets\\Assets\\Login\\images\\bnacwc.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\images\\difelogo.png",
+      "PackagePath": "staticwebassets\\Assets\\Login\\images\\difelogo.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\images\\pen-solid.svg",
+      "PackagePath": "staticwebassets\\Assets\\Login\\images\\pen-solid.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Assets\\Login\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Assets\\Login\\js\\jquery.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\js\\main.js",
+      "PackagePath": "staticwebassets\\Assets\\Login\\js\\main.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\Login\\js\\popper.js",
+      "PackagePath": "staticwebassets\\Assets\\Login\\js\\popper.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\css\\BNACWC\\dashboard.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\css\\BNACWC\\dashboard.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\css\\Login\\PasswordEnforcement.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\css\\Login\\PasswordEnforcement.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\css\\Login\\PasswordEnforcement.min.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\css\\Login\\PasswordEnforcement.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\css\\Login\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\css\\Login\\bootstrap.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\css\\Login\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\css\\Login\\fontawesome.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\css\\Login\\style.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\css\\Login\\style.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\css\\Report.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\css\\Report.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\css\\fonts\\SolaimanLipi_20-04-07.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\css\\fonts\\SolaimanLipi_20-04-07.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\css\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\css\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\css\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\css\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\css\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\css\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\css\\login.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\css\\login.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\css\\preloader.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\css\\preloader.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\css\\preloader.min.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\css\\preloader.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\css\\site\\style.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\css\\site\\style.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\css\\site\\style.min.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\css\\site\\style.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\files\\Report For Scheduled Import Chemicals.pdf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\files\\Report For Scheduled Import Chemicals.pdf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\files\\Report-1.pdf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\files\\Report-1.pdf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\BIN.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\BIN.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\BNACWC_certificate.JPG",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\BNACWC_certificate.JPG"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\BankDraft.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\BankDraft.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\FSCD.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\FSCD.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\Gear.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\Gear.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\HostedRedirection.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\HostedRedirection.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\Login\\BIDA_Logo.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\Login\\BIDA_Logo.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\Login\\bida-logo_200X69.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\Login\\bida-logo_200X69.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\Login\\headerf.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\Login\\headerf.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\Login\\logo_govt_icon.ico",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\Login\\logo_govt_icon.ico"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\Login\\sheikmujib_s.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\Login\\sheikmujib_s.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\NID.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\NID.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\TIN.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\TIN.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\contact_us.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\contact_us.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\headerlogo.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\headerlogo.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\mypic.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\mypic.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\mypic_old.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\mypic_old.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\mypic_old_1.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\mypic_old_1.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\mypic_small.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\mypic_small.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\statue_logo.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\statue_logo.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\statue_logo_1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\statue_logo_1.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\images\\trade.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\images\\trade.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagementDataFile.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagementDataFile.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagement\\CaseEntry.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagement\\CaseEntry.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagement\\CaseList.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagement\\CaseList.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagement\\CaseList_1.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagement\\CaseList_1.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagement\\CaseSubject.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagement\\CaseSubject.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagement\\CaseType.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagement\\CaseType.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagement\\Category.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagement\\Category.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagement\\Court.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagement\\Court.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagement\\CourtType.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagement\\CourtType.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagement\\Department.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagement\\Department.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagement\\Judgement.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagement\\Judgement.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagement\\Lawyer.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagement\\Lawyer.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagement\\MasterCategory.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagement\\MasterCategory.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagement\\Ministry.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagement\\Ministry.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagement\\Office.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagement\\Office.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagement\\Others.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagement\\Others.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagement\\caseactivityupdate.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagement\\caseactivityupdate.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\CaseManagement\\rpt_caseentrydata.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\CaseManagement\\rpt_caseentrydata.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\EnrollmentDashboard.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\EnrollmentDashboard.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\NotificationManagement.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\NotificationManagement.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\PermissionManagement.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\PermissionManagement.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\UserManagement.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\UserManagement.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\CommonUI\\js\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\CommonUI\\js\\sweetalert.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\css\\FloatLabel.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\css\\FloatLabel.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\css\\Pe-icon-7-stroke.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\css\\Pe-icon-7-stroke.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\css\\main.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AD.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AD.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AE.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AE.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AF.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AF.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AG.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AG.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AI.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AI.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AL.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AL.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AM.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AM.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AO.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AO.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AR.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AR.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AS.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AS.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AT.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AT.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AU.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AU.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AW.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AW.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AX.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AX.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AZ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\AZ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BA.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BA.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BB.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BB.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BD.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BD.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BE.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BE.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BF.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BF.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BG.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BG.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BH.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BH.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BI.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BI.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BJ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BJ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BL.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BL.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BM.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BM.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BN.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BN.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BO.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BO.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BR.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BR.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BS.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BS.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BT.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BT.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BV.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BV.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BW.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BW.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BY.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BY.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BZ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\BZ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CA.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CA.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CC.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CC.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CD.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CD.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CF.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CF.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CG.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CG.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CH.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CH.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CI.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CI.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CK.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CK.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CL.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CL.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CM.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CM.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CN.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CN.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CO.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CO.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CR.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CR.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CU.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CU.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CV.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CV.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CW.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CW.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CX.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CX.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CY.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CY.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CZ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\CZ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\DE.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\DE.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\DJ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\DJ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\DK.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\DK.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\DM.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\DM.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\DO.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\DO.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\DZ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\DZ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\EC.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\EC.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\EE.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\EE.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\EG.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\EG.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ER.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ER.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ES.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ES.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ET.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ET.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\EU.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\EU.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\FI.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\FI.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\FJ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\FJ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\FK.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\FK.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\FM.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\FM.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\FO.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\FO.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\FR.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\FR.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GA.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GA.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GB-ENG.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GB-ENG.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GB-NIR.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GB-NIR.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GB-SCT.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GB-SCT.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GB-WLS.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GB-WLS.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GB-ZET.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GB-ZET.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GB.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GB.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GD.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GD.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GE.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GE.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GF.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GF.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GG.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GG.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GH.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GH.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GI.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GI.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GL.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GL.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GM.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GM.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GN.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GN.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GP.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GP.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GQ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GQ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GR.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GR.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GS.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GS.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GT.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GT.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GU.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GU.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GW.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GW.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GY.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\GY.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\HK.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\HK.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\HM.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\HM.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\HN.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\HN.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\HR.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\HR.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\HT.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\HT.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\HU.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\HU.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ID.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ID.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IE.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IE.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IL.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IL.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IM.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IM.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IN.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IN.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IO.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IO.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IQ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IQ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IR.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IR.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IS.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IS.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IT.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\IT.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\JE.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\JE.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\JM.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\JM.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\JO.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\JO.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\JP.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\JP.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KE.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KE.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KG.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KG.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KH.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KH.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KI.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KI.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KM.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KM.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KN.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KN.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KP.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KP.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KR.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KR.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KW.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KW.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KY.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KY.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KZ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\KZ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LA.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LA.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LB.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LB.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LC.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LC.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LGBT.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LGBT.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LI.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LI.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LK.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LK.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LR.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LR.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LS.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LS.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LT.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LT.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LU.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LU.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LV.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LV.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LY.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\LY.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Linearicons-Free.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Linearicons-Free.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Linearicons-Free.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Linearicons-Free.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MA.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MA.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MC.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MC.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MD.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MD.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ME.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ME.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MF.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MF.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MG.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MG.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MH.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MH.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MK.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MK.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ML.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ML.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MM.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MM.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MN.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MN.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MO.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MO.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MP.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MP.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MQ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MQ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MR.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MR.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MS.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MS.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MT.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MT.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MU.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MU.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MV.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MV.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MW.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MW.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MX.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MX.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MY.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MY.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MZ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\MZ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NA.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NA.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NC.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NC.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NE.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NE.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NF.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NF.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NG.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NG.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NI.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NI.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NL.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NL.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NO.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NO.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NP.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NP.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NR.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NR.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NU.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NU.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NZ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\NZ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\OM.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\OM.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PA.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PA.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PE.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PE.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PF.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PF.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PG.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PG.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PH.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PH.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PK.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PK.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PL.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PL.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PM.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PM.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PN.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PN.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PR.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PR.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PS.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PS.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PT.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PT.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PW.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PW.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PY.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\PY.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Pe-icon-7-stroke.eot",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Pe-icon-7-stroke.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Pe-icon-7-stroke.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Pe-icon-7-stroke.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Pe-icon-7-stroke.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Pe-icon-7-stroke.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Pe-icon-7-stroke.woff",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\Pe-icon-7-stroke.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\QA.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\QA.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\RE.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\RE.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\RO.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\RO.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\RS.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\RS.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\RU.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\RU.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\RW.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\RW.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SA.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SA.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SB.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SB.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SC.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SC.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SD.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SD.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SE.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SE.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SG.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SG.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SH.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SH.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SI.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SI.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SJ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SJ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SK.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SK.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SL.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SL.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SM.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SM.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SN.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SN.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SO.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SO.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SR.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SR.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SS.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SS.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ST.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ST.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SV.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SV.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SX.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SX.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SY.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SY.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SZ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SZ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SolaimanLipi_20-04-07.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\SolaimanLipi_20-04-07.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TC.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TC.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TD.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TD.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TF.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TF.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TG.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TG.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TH.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TH.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TJ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TJ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TK.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TK.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TL.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TL.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TM.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TM.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TN.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TN.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TO.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TO.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TR.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TR.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TT.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TT.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TV.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TV.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TW.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TW.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TZ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\TZ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\UA.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\UA.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\UG.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\UG.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\UM.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\UM.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\US-CA.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\US-CA.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\US.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\US.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\UY.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\UY.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\UZ.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\UZ.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\VA.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\VA.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\VC.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\VC.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\VE.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\VE.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\VG.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\VG.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\VI.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\VI.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\VN.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\VN.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\VU.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\VU.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\WF.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\WF.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\WS.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\WS.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\XK.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\XK.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\YE.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\YE.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\YT.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\YT.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ZA.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ZA.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ZM.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ZM.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ZW.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ZW.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ionicons.eot",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ionicons.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ionicons.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ionicons.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ionicons.woff",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\fonts\\ionicons.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\ajax-loader.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\avatars\\1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\avatars\\1.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\icons-rtl.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\icons-rtl.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\icons.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\icons.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\loading.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\logo-inverse.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\logo-inverse.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\logo_govt.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\logo_govt.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\logo_govt_icon.ico",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\logo_govt_icon.ico"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract1.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract10.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract10.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract2.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract3.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract4.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract5.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract5.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract6.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract6.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract7.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract7.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract8.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract8.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract9.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\abstract9.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\city1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\city1.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\city2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\city2.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\city3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\city3.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\city4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\city4.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\city5.jpg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\sidebar\\city5.jpg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\undraw_remotely_2j6y.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\undraw_remotely_2j6y.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\vline-rtl.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\vline-rtl.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\vline.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\images\\vline.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\scripts\\main.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\scripts\\main.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\Masters\\assets\\scripts\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\Masters\\assets\\scripts\\sweetalert.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\CoreCSS.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\CoreCSS.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\CoreCSS.css.bundle",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\CoreCSS.css.bundle"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\CoreCSS.min.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\CoreCSS.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\Homepage.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\Homepage.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\MasterLayoutK.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\MasterLayoutK.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\Metro\\editor.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\Metro\\editor.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\Metro\\imagebrowser.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\Metro\\imagebrowser.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\Metro\\indeterminate.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\Metro\\indeterminate.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\Metro\\loading-image.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\Metro\\loading-image.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\Metro\\loading.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\Metro\\loading.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\Metro\\loading_2x.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\Metro\\loading_2x.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\Metro\\markers.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\Metro\\markers.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\Metro\\markers_2x.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\Metro\\markers_2x.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\Metro\\slider-h.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\Metro\\slider-h.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\Metro\\slider-v.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\Metro\\slider-v.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\Metro\\sprite.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\Metro\\sprite.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\Metro\\sprite_2x.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\Metro\\sprite_2x.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\Metro\\sprite_kpi.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\Metro\\sprite_kpi.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\Metro\\sprite_kpi_2x.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\Metro\\sprite_kpi_2x.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\datepicker.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\datepicker.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\font-awesome5.min.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\font-awesome5.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSans-Bold.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSans-Bold.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSans-BoldOblique.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSans-BoldOblique.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSans-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSans-ExtraLight.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSans-Oblique.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSans-Oblique.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSans.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSans.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSansMono-Bold.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSansMono-Bold.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSansMono-BoldOblique.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSansMono-BoldOblique.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSansMono-Oblique.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSansMono-Oblique.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSansMono.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSansMono.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSerif-Bold.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSerif-Bold.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSerif-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSerif-BoldItalic.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSerif-Italic.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSerif-Italic.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSerif.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\DejaVuSerif.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\DejaVu\\LICENSE.txt"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\glyphs\\KendoUIGlyphs.eot",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\glyphs\\KendoUIGlyphs.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\glyphs\\KendoUIGlyphs.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\glyphs\\KendoUIGlyphs.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\glyphs\\KendoUIGlyphs.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\glyphs\\KendoUIGlyphs.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\glyphs\\KendoUIGlyphs.woff",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\glyphs\\KendoUIGlyphs.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\glyphs\\WebComponentsIcons.eot",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\glyphs\\WebComponentsIcons.eot"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\glyphs\\WebComponentsIcons.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\glyphs\\WebComponentsIcons.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\glyphs\\WebComponentsIcons.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\glyphs\\WebComponentsIcons.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\fonts\\glyphs\\WebComponentsIcons.woff",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\fonts\\glyphs\\WebComponentsIcons.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\kendo.common.min.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\kendo.common.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\kendo.common.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\kendo.common.min.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\kendo.default.min.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\kendo.default.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\kendo.default.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\kendo.default.min.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\kendo.default.mobile.min.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\kendo.default.mobile.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\kendo.default.mobile.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\kendo.default.mobile.min.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\kendo.metro.min.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\kendo.metro.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\kendo.metro.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\kendo.metro.min.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\kendo.metro.mobile.min.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\kendo.metro.mobile.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\kendo.metro.mobile.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\kendo.metro.mobile.min.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\preloader.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\preloader.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\report\\Report-2.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\report\\Report-2.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\report\\Report.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\report\\Report.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\site.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\site.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\svg.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\svg.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\css\\svg.min.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\css\\svg.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Default\\editor.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Default\\editor.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Default\\imagebrowser.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Default\\imagebrowser.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Default\\indeterminate.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Default\\indeterminate.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Default\\loading-image.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Default\\loading-image.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Default\\loading.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Default\\loading.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Default\\loading_2x.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Default\\loading_2x.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Default\\markers.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Default\\markers.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Default\\markers_2x.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Default\\markers_2x.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Default\\slider-h.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Default\\slider-h.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Default\\slider-v.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Default\\slider-v.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Default\\sprite.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Default\\sprite.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Default\\sprite_2x.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Default\\sprite_2x.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Default\\sprite_kpi.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Default\\sprite_kpi.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Default\\sprite_kpi_2x.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Default\\sprite_kpi_2x.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Essentials\\dird_icon.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Essentials\\dird_icon.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Essentials\\logo-dird.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Essentials\\logo-dird.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Essentials\\logo-icon.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Essentials\\logo-icon.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Metro\\editor.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Metro\\editor.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Metro\\imagebrowser.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Metro\\imagebrowser.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Metro\\indeterminate.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Metro\\indeterminate.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Metro\\loading-image.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Metro\\loading-image.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Metro\\loading.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Metro\\loading.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Metro\\loading_2x.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Metro\\loading_2x.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Metro\\markers.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Metro\\markers.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Metro\\markers_2x.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Metro\\markers_2x.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Metro\\slider-h.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Metro\\slider-h.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Metro\\slider-v.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Metro\\slider-v.gif"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Metro\\sprite.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Metro\\sprite.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Metro\\sprite_2x.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Metro\\sprite_2x.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Metro\\sprite_kpi.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Metro\\sprite_kpi.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\Metro\\sprite_kpi_2x.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\Metro\\sprite_kpi_2x.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\images\\back.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\images\\back.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\images\\kendoui.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\images\\kendoui.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\images\\kendoui.ttf",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\images\\kendoui.ttf"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\images\\kendoui.woff",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\images\\kendoui.woff"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\images\\wp8_icons.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\images\\wp8_icons.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\images\\wp8_inverseicons.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\images\\wp8_inverseicons.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\1.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\1.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\10.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\10.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\11.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\11.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\12.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\12.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\13.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\13.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\14.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\14.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\15.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\15.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\18.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\18.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\19.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\19.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\19.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\19.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\2.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\2.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\20.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\20.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\21.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\21.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\22.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\22.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\23.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\23.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\3.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\3.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\5.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\5.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\6.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\6.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\7.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\7.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\8.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\8.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\oddoIcons\\9.svg",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\oddoIcons\\9.svg"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\web\\notification\\envelope.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\web\\notification\\envelope.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\web\\notification\\error-icon.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\web\\notification\\error-icon.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\images\\web\\notification\\success-icon.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\images\\web\\notification\\success-icon.png"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\Common.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\Common.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\Common.min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\Common.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\Common.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\Common.min.js.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\MenuLoad.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\MenuLoad.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\MenuLoad.min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\MenuLoad.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\MenuLoad.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\MenuLoad.min.js.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\Underscore-min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\Underscore-min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\html2canvas.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\html2canvas.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\html2pdf.bundle.min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\html2pdf.bundle.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\html2pdf.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\html2pdf.bundle.min.js.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\jquery-3.5.1.min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\jquery-3.5.1.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\jspdf.min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\jspdf.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\jszip.min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\jszip.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\kendo.all.min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\kendo.all.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\kendo.all.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\kendo.all.min.js.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\main.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\main.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\main.min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\main.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\main.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\main.min.js.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\moment.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\popper.min",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\popper.min"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\popper.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\report-common.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\report-common.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\sweetalert.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\Assets\\lib\\kendoUI\\js\\underscore-min.map",
+      "PackagePath": "staticwebassets\\Assets\\lib\\kendoUI\\js\\underscore-min.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "H:\\Work\\Raven All Project\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.DIFECMS.web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.DIFECMS.web.props",
+      "PackagePath": "build\\DIFECMS.web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.DIFECMS.web.props",
+      "PackagePath": "buildMultiTargeting\\DIFECMS.web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.DIFECMS.web.props",
+      "PackagePath": "buildTransitive\\DIFECMS.web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

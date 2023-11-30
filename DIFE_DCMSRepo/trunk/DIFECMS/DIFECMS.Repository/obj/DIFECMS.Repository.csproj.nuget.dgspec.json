@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Project\\Raven All Project\\Raven-BMTL\\BackUp\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.Repository\\DIFECMS.Repository.csproj": {}
+  },
+  "projects": {
+    "C:\\Project\\Raven All Project\\Raven-BMTL\\BackUp\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.Common\\DIFECMS.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Project\\Raven All Project\\Raven-BMTL\\BackUp\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.Common\\DIFECMS.Common.csproj",
+        "projectName": "DIFECMS.Common",
+        "projectPath": "C:\\Project\\Raven All Project\\Raven-BMTL\\BackUp\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.Common\\DIFECMS.Common.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Project\\Raven All Project\\Raven-BMTL\\BackUp\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Project\\Raven All Project\\Raven-BMTL\\BackUp\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.Domain\\DIFECMS.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Project\\Raven All Project\\Raven-BMTL\\BackUp\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.Domain\\DIFECMS.Domain.csproj",
+        "projectName": "DIFECMS.Domain",
+        "projectPath": "C:\\Project\\Raven All Project\\Raven-BMTL\\BackUp\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.Domain\\DIFECMS.Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Project\\Raven All Project\\Raven-BMTL\\BackUp\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFrameworkCore.RawSQLExtensions": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Project\\Raven All Project\\Raven-BMTL\\BackUp\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.Repository\\DIFECMS.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Project\\Raven All Project\\Raven-BMTL\\BackUp\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.Repository\\DIFECMS.Repository.csproj",
+        "projectName": "DIFECMS.Repository",
+        "projectPath": "C:\\Project\\Raven All Project\\Raven-BMTL\\BackUp\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.Repository\\DIFECMS.Repository.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Project\\Raven All Project\\Raven-BMTL\\BackUp\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Project\\Raven All Project\\Raven-BMTL\\BackUp\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.Common\\DIFECMS.Common.csproj": {
+                "projectPath": "C:\\Project\\Raven All Project\\Raven-BMTL\\BackUp\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.Common\\DIFECMS.Common.csproj"
+              },
+              "C:\\Project\\Raven All Project\\Raven-BMTL\\BackUp\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.Domain\\DIFECMS.Domain.csproj": {
+                "projectPath": "C:\\Project\\Raven All Project\\Raven-BMTL\\BackUp\\DIFE_DCMSRepo\\trunk\\DIFECMS\\DIFECMS.Domain\\DIFECMS.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Case Activity Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="~/Assets/lib/CommonUI/js/casemanagement/CaseActivityUpdate.js?v=@DateTime.Now.ToString("yymmddHHmmss")"></script>
+
+<div class="main_content_iner ">
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="modal-content cs_modal">
+                    <div class="modal-header justify-content-center theme_bg_mainpage_modal_header">
+                        <h5 class="modal-title">CASE LIST FOR ACTIVITY UPDATE</h5>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="ex0">
+                                <div class="row">
+
+                                    <div class="col-md-4"><span>Court Type</span><input style="width: 100% !important" type="text" class="k-combo" id="cmbCiourtType" autocomplete="off" /></div>
+                                    <div class="col-md-2"><span>Case Category</span><input id="cmbCaseCategory" class="k-combo" style="width: 100%;" /></div>
+
+                                    <div class="col-md-2"><button id="btnSearch" onclick="GetData()" style="margin-top:19px;" class="k-primary primaryTextButton">Search</button></div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div id="ex1">
+                                <div class="row">
+                                    <div id="tblCaseList"></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

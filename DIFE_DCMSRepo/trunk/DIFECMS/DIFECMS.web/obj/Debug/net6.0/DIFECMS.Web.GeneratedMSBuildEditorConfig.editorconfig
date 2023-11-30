@@ -1,0 +1,261 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DIFECMS.Web
+build_property.RootNamespace = DIFECMS.Web
+build_property.ProjectDir = C:\Project\Raven All Project\Raven-BMTL\BackUp\DIFE_DCMSRepo\trunk\DIFECMS\DIFECMS.web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Project\Raven All Project\Raven-BMTL\BackUp\DIFE_DCMSRepo\trunk\DIFECMS\DIFECMS.web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Activity/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZpdHlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Admin/NotificationManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTm90aWZpY2F0aW9uTWFuYWdlbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Admin/PermissionManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGVybWlzc2lvbk1hbmFnZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Admin/UserManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlck1hbmFnZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/CaseActivityUpdateEntry/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZUFjdGl2aXR5VXBkYXRlRW50cnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/CaseActivityUpdate/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZUFjdGl2aXR5VXBkYXRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/CaseCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZUNhdGVnb3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/CaseList/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZUxpc3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/CaseManagement/CaseActivityUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZU1hbmFnZW1lbnRcQ2FzZUFjdGl2aXR5VXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/CaseManagement/CaseActivityUpdateEntry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZU1hbmFnZW1lbnRcQ2FzZUFjdGl2aXR5VXBkYXRlRW50cnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/CaseManagement/CaseEntry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZU1hbmFnZW1lbnRcQ2FzZUVudHJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/CaseManagement/CaseList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZU1hbmFnZW1lbnRcQ2FzZUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/CaseManagement/CaseTransfer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZU1hbmFnZW1lbnRcQ2FzZVRyYW5zZmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/CaseNature/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZU5hdHVyZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/CaseStatus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZVN0YXR1c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/CaseType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZVR5cGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Case/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/ConcernedPerson/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uY2VybmVkUGVyc29uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Configuration/CaseSubject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvblxDYXNlU3ViamVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Configuration/CaseType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvblxDYXNlVHlwZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Configuration/Category.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvblxDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Configuration/Court.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvblxDb3VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Configuration/CourtType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvblxDb3VydFR5cGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Configuration/Department.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvblxEZXBhcnRtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Configuration/Judgement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvblxKdWRnZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Configuration/Lawyer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvblxMYXd5ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Configuration/MasterCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvblxNYXN0ZXJDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Configuration/Ministry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvblxNaW5pc3RyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Configuration/Office.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvblxPZmZpY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Configuration/Others.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvblxPdGhlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/CourtType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnRUeXBlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Court/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Designation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzaWduYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Home/HelpDesk.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIZWxwRGVzay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Lawyer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF3eWVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/MinistryOrDepartment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWluaXN0cnlPckRlcGFydG1lbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Office/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Reports/DashboardCardReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xEYXNoYm9hcmRDYXJkUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Reports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Reports/Report1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xSZXBvcnQxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Reports/Report2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xSZXBvcnQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Reports/rpt_CaseReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xycHRfQ2FzZVJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Reports/SubReportReport1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xTdWJSZXBvcnRSZXBvcnQxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Reports/SubReportReport2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xTdWJSZXBvcnRSZXBvcnQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Report/----OfficeAndCourtWiseReportViewDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XC0tLS1PZmZpY2VBbmRDb3VydFdpc2VSZXBvcnRWaWV3RGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Report/CaseList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XENhc2VMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Report/CaseListDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XENhc2VMaXN0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Report/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Report/OfficeAndCourtWiseReportMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XE9mZmljZUFuZENvdXJ0V2lzZVJlcG9ydE1hc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Report/OfficeAndCourtWiseReportView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XE9mZmljZUFuZENvdXJ0V2lzZVJlcG9ydFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Report/OfficeAndCourtWiseReportViewDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XE9mZmljZUFuZENvdXJ0V2lzZVJlcG9ydFZpZXdEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/UserType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclR5cGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-kp3r4ts5cg
+
+[C:/Project/Raven All Project/Raven-BMTL/BackUp/DIFE_DCMSRepo/trunk/DIFECMS/DIFECMS.web/Views/Shared/_MasterLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYXN0ZXJMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cw0vheerpd

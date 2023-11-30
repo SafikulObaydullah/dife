@@ -1,0 +1,2 @@
+﻿function LoadMenu(){var t=bUrl+"/Home/GetUserMenuHtmlK",i=window.location,r=i.pathname.split("/")[1],n=new FormData;n.append("ModuleName",r);$.ajax({url:t,type:"POST",data:n,dataType:"json",contentType:!1,processData:!1,success:function(n){console.log(n);var t=generateMenuDOM(n);console.log(t);final(t)},error:function(){}})}var bUrl="";$(function(){LoadMenu()});const generateMenuDOM=function(){};
+//# sourceMappingURL=MenuLoad.min.js.map

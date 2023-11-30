@@ -1,0 +1,502 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="icon" href="~/Assets/MASTER/img/mini_logo.png" type="image/png">
+    <title>DIFE - CMS - @ViewBag.Title</title>
+
+    <link rel="stylesheet" href="~/Assets/MASTER/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Assets/MASTER/css/summernote-bs4.css" />
+    <link rel="stylesheet" href="~/Assets/MASTER/vendors/themefy_icon/themify-icons.css" />
+    <link rel="stylesheet" href="~/Assets/MASTER/vendors/niceselect/css/nice-select.css" />
+    @*<link rel="stylesheet" href="~/Assets/MASTER/vendors/font_awesome/css/all.min.css" />*@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/Assets/MASTER/vendors/scroll/scrollable.css" />
+    <link rel="stylesheet" href="~/Assets/MASTER/vendors/datatable/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="~/Assets/MASTER/vendors/datatable/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" href="~/Assets/MASTER/vendors/material_icon/material-icons.css" />
+    <link rel="stylesheet" href="~/Assets/MASTER/css/metisMenu.css">
+    <link rel="stylesheet" href="~/Assets/MASTER/css/style.css" />
+
+    <link href="~/Assets/lib/CommonUI/css/preloader.css" rel="stylesheet" />
+    <link href="~/Assets/lib/kendoUI/css/kendo.common.min.css" rel="stylesheet" />
+    <link href="~/Assets/lib/kendoUI/css/kendo.metro.min.css" rel="stylesheet" />
+    <link href="~/Assets/lib/kendoUI/css/site.css" rel="stylesheet" />
+    <script src="~/Assets/MASTER/js/jquery-3.4.1.min.js"></script>
+    <script src="~/Assets/lib/kendoUI/js/kendo.all.min.js"></script>
+
+    <script src="~/Assets/lib/kendoUI/js/bootstrap.bundle.min.js"></script>
+
+    <link href="~/assets/lib/toastr/toastr.css" rel="stylesheet" />
+    <script src="~/assets/lib/toastr/toastr.min.js"></script>
+
+    <script src="~/Assets/lib/kendoUI/js/jszip.min.js"></script>
+    <script src="~/Assets/lib/kendoUI/js/main.js?v=@DateTime.Now.ToString("yymmddHHmmss")"></script>
+
+    <script src="~/Assets/lib/kendoUI/js/Underscore-min.js"></script>
+    <script src="~/Assets/lib/kendoUI/js/bootstrap-datepicker.js"></script>
+    <script src="~/Assets/lib/kendoUI/js/moment.min.js"></script>
+    <script src="~/assets/lib/kendoui/js/common.js?v=@DateTime.Now.ToString("yymmddHHmmss")"></script>
+    <script>
+        toastr.options = {
+            "closeButton": true,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": false,
+            "positionClass": "toast-bottom-right",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+    </script>
+    <style>
+        .sidebar #sidebar_menu > li a {
+            grid-template-columns: 5px auto;
+        }
+
+        input:read-only {
+            background: #a9b4d7
+        }
+
+        .single_crm {
+            height: 100%;
+        }
+        /*.header_iner {
+                    background: #e8ebf3;
+                }*/
+        .crm_bg_4 {
+            background: #3b3b5c !important;
+        }
+
+        .crm_bg_5 {
+            background: #f4ce2e !important;
+        }
+
+        .sidebar.mini_sidebar {
+            width: 70px;
+            min-width: 70px;
+            max-width: 70px;
+        }
+
+        .main_content.full_main_content {
+            padding-left: 70px;
+        }
+
+        .sidebar.mini_sidebar #sidebar_menu > li {
+            width: 70px;
+        }
+
+        .sidebar.mini_sidebar .logo {
+            width: 70px;
+        }
+
+        .sidebar #sidebar_menu > li a i {
+            margin-right: -25px;
+        }
+
+        .sidebar_close_icon i {
+            right: 0px;
+            top: 10px;
+        }
+
+        .cs_modal .modal-header {
+            background-color: #f7faff;
+            padding: 10px 30px;
+            border-bottom: 0 solid transparent;
+        }
+
+        .cs_modal {
+            background-color: #ffffff;
+            border: 0;
+            box-shadow: 12px 1px 20px 0 rgb(0 0 0 / 25%), -8px -8px 12px 0 rgb(255 255 255 / 10%)
+        }
+
+        .footer_part p a {
+            color: #865a40;
+        }
+
+        .footer_part .footer_iner.text-center {
+            margin: -55px 15px;
+        }
+
+        .theme_bg_mainpage_modal_header {
+            background: #a9b4d7 !important;
+            /*background: linear-gradient(to bottom, #b3bcdf 0%, #959fbd 100%);*/
+        }
+
+        .profile_info .profile_info_iner {
+            top: 43px;
+        }
+
+        #back-top a {
+            background: #9ba4c1;
+        }
+
+        .cs_modal .modal-header h5 {
+            font-weight: bolder;
+        }
+
+        input:read-only {
+            background-color: #e8ecf1;
+            cursor: not-allowed;
+        }
+
+        .k-widget {
+            color: #343434;
+            font-weight: bold;
+        }
+
+        read-only {
+            background-color: #e8ecf1;
+            cursor: not-allowed;
+        }
+
+        readonly {
+            background-color: #e8ecf1;
+            cursor: not-allowed;
+        }
+
+        .sorting_1 {
+            color: black !important;
+            font-weight: bold !important;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #000000 !important;
+        }
+
+        @@media (min-width: 768px) {
+            .table-responsive {
+                overflow-x: hidden;
+            }
+        }
+
+        @@media (max-width: 768px) {
+            .table-responsive {
+                overflow-x: auto;
+            }
+        }
+
+        th {
+            font-weight: bold !important;
+            color: black !important
+        }
+
+        .profile_info .profile_info_iner .profile_author_name {
+            padding: 4px 5px;
+        }
+
+        .profile_author_name > a {
+            background: cornflowerblue;
+        }
+
+            .profile_author_name > a:hover {
+                background: linear-gradient(to bottom right,#863ee2,#571f9e)
+            }
+
+        .profile_info .profile_info_iner::before {
+            top: -19px;
+        }
+
+        .user_crm_wrapper .single_crm .crm_body p {
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .user_crm_wrapper .single_crm {
+            box-shadow: 12px 12px 16px 0 rgb(0 0 0 / 25%), -8px -8px 12px 0 rgb(255 255 255 / 30%);
+        }
+
+        .profile_info .profile_info_iner {
+            margin-top: -15px !important;
+        }
+
+            .profile_info .profile_info_iner::before {
+                right: 7px;
+            }
+
+        .modal.show .modal-dialog {
+            box-shadow: 5px 3px 5px #95bdc6;
+        }
+
+        .k-widget {
+            border-color: #a9b3d0;
+        }
+
+        .k-autocomplete, .k-dropdown-wrap.k-state-default, .k-numeric-wrap.k-state-default, .k-picker-wrap.k-state-default {
+            border-color: #a9b3d0;
+        }
+
+        @@font-face {
+            font-family: solaimanLipi;
+            src: url('../../Assets/lib/kendoUI/Masters/assets/fonts/SolaimanLipi_20-04-07.ttf') format('truetype');
+        }
+        *{
+            font-family: solaimanLipi;
+        }
+    </style>
+</head>
+@{
+    var user = User.Claims.ToList();
+    var UserName = user[0].Value;
+    var UserId = user[1].Value;
+    var UserType = user[2].Value;
+
+
+}
+<body class="crm_body_bg" style="font-family:solaimanLipi">
+    <!--CSS Spinner-->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+        </div>
+    </div>
+    <span id="popupNotification"></span>
+    <div style="display:none; text-align:center; font-size:17px;font-weight:bold; color:#7a9f0b" id="Loadwindow"></div>
+    <nav class="sidebar">
+        <div class="logo d-flex justify-content-between" style=" padding: 2px; text-align: center;">
+            <a class="large_logo" href="/Home/Index" style=" color: #9b2a2a; font-size:18px;font-weight:bold"><img style="width:88%" src="~/Assets/Login/images/GovernmentofBangladesh_w.jpeg" alt=""> 
+            </a>
+            <a class="small_logo" href="/Home/Index"><img src="~/Assets/MASTER/img/mini_logo.png" alt="" style="width: 50px;"></a>
+            <div class="sidebar_close_icon d-lg-none">
+                <i class="ti-close"></i>
+            </div>
+        </div>
+        <ul id="sidebar_menu">
+
+            <li class="">
+                <a href="/Home/Index" aria-expanded="false">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <div class="nav_title">
+                        <span>Dashboard</span>
+                    </div>
+                </a>
+            </li>
+
+            <li class="">
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                    <div class="nav_title">
+                        <span>Case Management</span>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="/Case/Index"><span class="k-icon k-i-add"></span> New Case</a></li>
+                    <li><a href="/CaseList/Index"><span class="k-icon k-i-edit"></span>Case List</a></li>
+                    <li><a href="/CaseActivityUpdate/Index"><span class="k-icon k-i-upload"></span> Case Activity Update</a></li>
+                    @*<li><a href="/CaseManagement/CaseTransfer"><span class="k-icon k-i-redo"></span> Case Transfer</a></li>*@
+                </ul>
+            </li>
+            <li class="">
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <i class="fa fa-print" aria-hidden="true"></i>
+                    <div class="nav_title">
+                        <span>Reports</span>
+                    </div>
+                </a>
+                <ul>
+                    @*<li class="nav-item"> <a class="nav-link" href="/Reports/Index">Case Reports</a></li>*@
+                    <li class="nav-item"> <a class="nav-link" href="/Report/OfficeAndCourtWiseReportView"><span class="k-icon k-i-table-align-top-center"></span>Case Summary</a></li>
+                    @*<li class="nav-item"> <a class="nav-link" href="/Reports/Report2"><span class="k-icon k-i-table-align-top-center"></span>Office and Type-Wise</a></li>*@
+                </ul>
+                <ul>
+                    @*<li class="nav-item"> <a class="nav-link" href="/Reports/Index">Case Reports</a></li>*@
+                    <li class="nav-item"> <a class="nav-link" href="/Report/CaseList"><span class="k-icon k-i-table-align-top-center"></span>Case List</a></li>
+                    @*<li class="nav-item"> <a class="nav-link" href="/Reports/Report2"><span class="k-icon k-i-table-align-top-center"></span>Office and Type-Wise</a></li>*@
+                </ul>
+            </li>
+            @if(UserType!="3")
+            {
+                <li class="">
+                    <a class="has-arrow" href="#" aria-expanded="false">
+                        <i class="fas fa-cog" aria-hidden="true"></i>
+                        <div class="nav_title">
+                            <span>Configuration</span>
+                        </div>
+                    </a>
+                    <ul>
+                        <li class="nav-item"> <a class="nav-link" href="/MinistryOrDepartment/Index">Ministry/Department</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="/Office/Index">Office</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="/CourtType/Index">Court Type</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="/Court/Index">Court</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="/CaseType/Index">Case Type</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="/CaseCategory/Index">Case Category</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="/CaseStatus/Index">Case Status</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="/CaseNature/Index">Case Nature</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="/Activity/Index">Activity</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="/Designation/Index">Designation</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="/Lawyer/Index">Lawyer</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="/UserType/Index">User Type</a></li>
+                  
+                    </ul>
+                </li>
+                <li class="">
+                    <a class="has-arrow" href="#" aria-expanded="false">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <div class="nav_title">
+                            <span>Admin</span>
+                        </div>
+                    </a>
+                    <ul>
+                        <li class="nav-item"> <a class="nav-link" href="/Admin/UserManagement">User Management</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="/Admin/PermissionManagement">Permission Management</a></li>
+                        @*<li class="nav-item"> <a class="nav-link" href="/Admin/NotificationManagement">Notification Management</a></li>*@
+                    </ul>
+                </li>
+            }
+           
+        </ul>
+    </nav>
+
+    <section class="main_content dashboard_part large_header_bg">
+
+        <div class="container-fluid g-0">
+            <div class="row">
+                <div class="col-lg-12 p-0 ">
+                    <div class="header_iner d-flex justify-content-between align-items-center" style="padding: 5px 30px;">
+                        <div class="sidebar_icon d-lg-none">
+                            <i class="ti-menu"></i>
+                        </div>
+                        <div class="line_icon open_miniSide d-none d-lg-block">
+                            <img src="~/Assets/MASTER/img/line_img.png" alt="">
+                        </div>
+
+                        <div class="header_right d-flex justify-content-between align-items-center">
+                            <div class="header_notification_warp d-flex align-items-center">
+                               @* <li>
+                                    <a class="bell_notification_clicker" href="#">
+                                        <img src="~/Assets/MASTER/img/icon/bell.svg" alt="">
+                                        <span>2</span>
+                                    </a>
+
+                                    <div class="Menu_NOtification_Wrap">
+                                        <div class="notification_Header">
+                                            <h4>Notifications</h4>
+                                        </div>
+                                        <div class="Notification_body">
+                                            <div class="single_notify d-flex align-items-center">
+                                                <div class="notify_thumb">
+                                                    <a href="#"><img src="/Assets/MASTER/img/icon/bell.svg" alt=""></a>
+                                                </div>
+                                                <div class="notify_content">
+                                                    <a href="#">
+                                                        <h5>License No 1112312313123.</h5>
+                                                    </a>
+                                                    <span style="background: #9cff89; color: black;">Approved</span>
+                                                </div>
+                                            </div>
+                                            <div class="single_notify d-flex align-items-center">
+                                                <div class="notify_thumb">
+                                                    <a href="#"><img src="/Assets/MASTER/img/icon/bell.svg" alt=""></a>
+                                                </div>
+                                                <div class="notify_content">
+                                                    <a href="#">
+                                                        <h5>License No 3453366.</h5>
+                                                    </a>
+                                                    <span style="background: #ffc107; color: black;">Denied</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="nofity_footer">
+                                            <div class="submit_button text-center pt_20">
+                                                <a href="#" class="btn_1">See More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>*@
+                            </div>
+                            <div class="profile_info">
+                               
+                                <span style="margin-top: 16px;font-size: 16px;">@UserName</span>
+                                @*<p id="name_firstAlphabet" style="font-size: 25px;border: 3px solid #7a7f99;border-radius: 38px;padding: 5px 11px 5px 10px;background: aliceblue;color: black;cursor: pointer;" data-toggle="dropdown">*@
+                                <div class="profile_info_iner">
+                                    <div class="profile_author_name" style="background:transparent">
+                                        @*<a style="padding: 15px; background: aliceblue; border-radius: 10px; color: black;" href="#">My Profile </a>*@
+                                        @*<a href="#">Settings</a>*@
+                                        <a style="padding: 15px; border-radius: 10px; font-weight: bold; font-size: 15px; }" href="/Account/Logout"><span class="k-icon k-i-logout"></span>&nbsp; Log Out  </a>
+                                        @*<p>ahsagar@ravensystemsltd.com </p>*@
+                                        @*<h5>Afzal Hossain Sagar</h5>*@
+                                    </div>
+                                    <!--<div class="profile_info_details">
+                                        <a href="#">My Profile </a>-->
+                                    @*<a href="#">Settings</a>*@
+                                    <!--<a href="/Account/Login">Log Out </a>
+                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top:10px">
+            @RenderBody()
+        </div>
+
+        <div class="footer_part">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer_iner text-center">
+                            <p> Developed by <a href="#"> <i class="ti-arrow-circle-right"></i> </a><a href="https://www.ravensystemsltd.com/"> Raven Systems Ltd.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @*<div class="footer_part fixed_footer">
+        <div class="container-fluid">
+        <div class="row">
+        <div class="col-lg-12">
+        <div class="footer_iner text-center">
+        <p>2022 © Copyright by <a href="#"> <i class="ti-arrow-circle-right"></i> </a><a href="https://www.ravensystemsltd.com/"> Raven Systems Ltd.</a></p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>*@
+    </section>
+
+
+    <div id="back-top" style="display: none;">
+        <a title="Go to Top" href="#">
+            <i class="ti-angle-up"></i>
+        </a>
+    </div>
+    
+    <script>
+        $("#user.k-animation-container").css("right", "0");
+
+        $(document).ready(function () {
+            preloaderFadeOutTime = 1000;
+            function hidePreloader() {
+                var preloader = $('.spinner-wrapper');
+                preloader.fadeOut(preloaderFadeOutTime);
+            }
+            hidePreloader();
+            //var mastername = decodeURI(getCookie("_name"));
+            //$('#master_username').html(mastername);
+            //$('#name_firstAlphabet').html(mastername.charAt(0))
+        });
+    </script>
+
+    <script src="~/Assets/MASTER/js/metisMenu.js"></script>
+    <script src="~/Assets/MASTER/vendors/niceselect/jquery.nice-select.min.js"></script>
+    <script src="~/Assets/MASTER/js/jquery.dataTables.min.js"></script>
+    <script src="~/Assets/MASTER/js/jquery.barfiller.js"></script>
+    <script src="~/Assets/MASTER/vendors/scroll/perfect-scrollbar.min.js"></script>
+    <script src="~/Assets/MASTER/vendors/scroll/scrollable-custom.js"></script>
+    <script src="~/Assets/MASTER/vendors/apex_chart/apex-chart2.js"></script>
+    <script src="~/Assets/MASTER/vendors/apex_chart/apex_dashboard.js"></script>
+    <script src="~/Assets/MASTER/js/custom.js"></script>
+</body>
+</html>

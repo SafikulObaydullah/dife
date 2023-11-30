@@ -1,0 +1,85 @@
+﻿@{
+    ViewBag.Title = "Office";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<script src="~/Assets/lib/CommonUI/js/casemanagement/Office.js"></script>
+<div class="main_content_iner pt-0">
+    <div class="container-fluid p-0">
+        <div style="border-top: 1px solid #794c8a; padding: 0; background: white; border: 1px solid #7ea700; ">
+            <div class="row" style="justify-content: right;">
+                <div class="col-md-12 pt-2 pb-2" style="justify-content: space-between; align-items: center; display: flex; background: #acb6eb; color: white;">
+                    <div>
+                        <h4 id="stepTitle">Office Information</h4>
+                    </div>
+                    <div>
+                        <button class="btn btn-secondary" data-toggle="modal" onclick="AddNew()"><span class="k-icon k-i-plus"></span> Add New Office</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="justify-content:center; margin-bottom:20px;">
+
+                <div class="col-md-12 mt-2">
+                    <div id="gridUser" style="width:100%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="mdlUserReg" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Create Office</h5> <span id="spanParentID" style="display:none">0</span>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row" style="justify-content: center;">
+                    <div class="col-md-6">
+                        <span style="color:red">**</span><span>Ministry/Department</span><input id="ministryOrDepartment" style="width:100%" />
+                    </div>
+                    <div class="col-md-6">
+                        <span>Parent Office</span> <input id="parentOffice" style="width:100%" />
+                    </div>
+                </div>
+
+                <div class="row" style="justify-content: center;">
+                    <div class="col-md-6">
+                        <span style="color:red">**</span><span> Office Name English</span> <input id="nameE" class="textbox" style="width:100%" />
+                    </div>
+                    <div class="col-md-6">
+                        <span style="color:red">**</span><span> Office Name Bangla</span> <input id="nameB" class="textbox" style="width:100%" />
+                    </div>
+                </div>
+
+                <div class="row" style="justify-content: center;">
+                    <div class="col-md-6">
+                        <span style="color:red">**</span><span>Address </span> <input id="txtAddress" class="textbox" style="width:100%" />
+                    </div>
+                    <div class="col-md-6">
+                        <span>Description</span> <input id="description" class="textbox" style="width:100%" />
+                    </div>
+                </div>
+
+                <div class="row" style="justify-content: center;">
+                    <div class="col-md-6" style="margin-top:20px;">
+                        <input type="checkbox" id="isActive" value="1" checked> <span>Is Active</span>
+                    </div>
+                    <div class="col-md-6">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" onclick="Save()">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+

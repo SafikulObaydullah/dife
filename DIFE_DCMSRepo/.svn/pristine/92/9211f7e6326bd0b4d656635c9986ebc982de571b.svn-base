@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "OFFICE AND TYPE-WISE CASE REPORT";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    td {
+        padding: 5px
+    }
+
+    th {
+        text-align: center;
+        padding: 5px
+    }
+</style>
+<div class="main_content_iner ">
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="modal-content cs_modal">
+                    <div class="modal-header justify-content-center theme_bg_mainpage_modal_header">
+                        <h5 class="modal-title">OFFICE AND COURT WISE CASE REPORT</h5>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="ex0">
+                                <div class="row">
+                                    <div class="col-md-2"><span>Issue Year From</span> <input id="issueDateFrom" class="Kdatepicker" style="width:100%" /></div>
+                                    <div class="col-md-2"><span>Issue Year To</span> <input id="issueDateTo" class="Kdatepicker" style="width:100%" /></div>
+                                    <div class="col-md-3"><span>Ministry/Department</span><input style="width: 100% !important" id="cmbMinistryOrDepartment" /></div>
+                                    <div class="col-md-2"><span>Office</span><input id="cmbOffice" style="width: 100%;" /></div>
+                                    <div class="col-md-1"><button id="btnSearch" onclick="SearchFilter()" style="margin-top:19px; height:25px" class="k-primary primaryTextButton w-100">Search</button></div>
+                                </div>
+                            </div>
+                            <div id="reportHtml">
+                            </div>
+                         
+                            <br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function Report() {
+        var url = '/Reports/SubReportReport1';
+        window.open(url, '_blank');
+    }
+</script>
+<script src="~/Assets/lib/CommonUI/js/casemanagement/OfficeAndCourtWiseReport.js?v=@DateTime.Now.ToString("yymmddHHmmss")" ></script>

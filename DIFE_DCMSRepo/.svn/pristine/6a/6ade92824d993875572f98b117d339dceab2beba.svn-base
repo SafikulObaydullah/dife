@@ -1,0 +1,142 @@
+﻿@{
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>DIFE - CMS - LOGIN</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/Assets/Login/css/style.css">
+    
+    <style>
+        .loginBackGround
+        {
+         
+            font-family: "Roboto", sans-serif;
+            background-image: url('/assets/login/images/dcms_background.jpeg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            padding: 100px 50px 200px 50px;
+        
+        }
+
+        .ftco-section {
+            padding: 30px 0;
+        }
+
+        .checkbox-primary input:checked ~ .checkmark:after {
+            color: #41b883 !important;
+        }
+
+        .form-control:focus, .form-control:active {
+            outline: none !important;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            border: 1px solid #41b883 !important;
+        }
+
+        .login-wrap {
+            width: 100%;
+        }
+
+        .form-group {
+            margin-bottom: 5px;
+        }
+
+        @@font-face {
+            font-family: solaimanLipi;
+            src: url('../../Assets/lib/kendoUI/Masters/assets/fonts/SolaimanLipi_20-04-07.ttf') format('truetype');
+        }
+    </style>
+
+</head>
+<body style="background-color:#f7f7f7 !important">
+    <section id="divLogin" class="ftco-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-lg-7 loginBackGround">
+
+                </div>
+                <div class="col-md-5 col-lg-5" style=" opacity: 0.9;">
+                    <div class="wrap d-md-flex">
+                        <div class="login-wrap p-4 p-md-3" style="background: #ffffff">
+                            <div class="d-flex">
+                                <div class="w-100" style="text-align: center;">
+                                    <h6 class="">
+                                        <p style="margin-bottom:5px;"><img style=" margin-top: -6px; width:20%" src="~/Assets/Login/images/GovernmentofBangladesh.png" alt="" srcset="">
+                                           
+                                        </p>
+                                        <span>
+                                            Ministry of Labour and Employment
+                                        </span>
+                                    </h6>
+                                    <h5 class="mb-1">
+                                        
+                                        <span style="color:#045a04">
+                                            Case Management And  Monitoring System
+                                        </span>
+                                        
+                                    </h5>
+                                  
+
+                                </div>
+                            </div>
+                            @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+                            {
+                                <form action="#" class="signin-form">
+                                    <div class="form-group mb-1">
+                                        <label class="label" for="email">Username</label>
+                                        <input type="text" class="form-control" id="Username" name="Username" value="" placeholder="Username" required>
+                                    </div>
+                                    <div class="form-group mb-1">
+                                        <label class="label" for="password">Password</label>
+                                        <input type="password" id="Password" name="Password" value="" class="form-control" placeholder="Password" required>
+                                    </div>
+                                    <div class="form-group d-md-flex">
+                                        <div class="w-50 text-left">
+                                            <label style="color: #41b883 !important;display:none" class="checkbox-wrap checkbox-primary mb-0"  >
+                                                Remember Me
+                                                <input type="checkbox" checked>
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group d-md-flex">
+                                        <span style="color:red">@ViewBag.errormsg</span>
+                                    </div>
+                                    <div class="form-group d-md-flex">
+                                        <button type="submit" style="background-color: #41b883 !important;border-color: #41b883 !important;color: #fff;font-weight: 800;" class="form-control btn btn-primary rounded submit px-3">LOGIN</button>
+                                    </div>
+                                    <div class="form-group d-md-flex">
+                                        <div class="w-100 text-md-right">
+                                            <a style="color: #6975f0;display:none" href="#">Forgot Password ?</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            }
+                           
+                            <p class="text-center" style=" margin-bottom: 0;margin-top: 0;">Technical Assistance</p>
+                            <p class="text-center">
+                                <a href="#"> <i class="ti-arrow-circle-right"></i> </a><a style="color: #7683ff !important;" href="http://www.dife.gov.bd/"> Department of Inspection for Factories and Establishments.</a>
+                            </p>
+                            <p class="text-center" style="font-size:12px">Developed by <a href="#"> <i class="ti-arrow-circle-right"></i> </a><a target="_blank" href="https://www.ravensystemsltd.com/"> Raven Systems Ltd.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="~/Assets/Login/js/jquery.min.js"></script>
+    <script src="~/Assets/Login/js/popper.js"></script>
+    <script src="~/Assets/Login/js/bootstrap.min.js"></script>
+    <script src="~/Assets/Login/js/main.js"></script>
+   
+</body>
+
+</html>

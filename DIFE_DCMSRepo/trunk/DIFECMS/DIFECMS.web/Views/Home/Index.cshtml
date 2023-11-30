@@ -1,0 +1,202 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    td {
+        text-align: center;
+    }
+
+    .overdue_events {
+        background: #fff4d0 !important;
+    }
+
+    .overdue_events_dropdown_toggle {
+        background: #fff4d0 !important;
+        border: 1px solid #908787;
+    }
+
+    .upcoming_events {
+        background: #a3f4cf !important;
+    }
+
+    .upcoming_events_dropdown_toggle {
+        background: #a3f4cf !important;
+        border: 1px solid #908787;
+    }
+
+    h4 {
+        text-align: center;
+        text-decoration: none;
+        color: blue !important;
+    }
+
+    .user_crm_wrapper .single_crm .crm_body p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .user_crm_wrapper .single_crm .crm_body {
+        padding: 29px 22px;
+    }
+
+    .crm_bg_3 {
+        background: #8f8fff !important;
+    }
+
+    td {
+        padding: 5px
+    }
+
+    th {
+        text-align: center;
+        padding: 5px
+    }
+
+    tbody, td, tfoot, th, thead, tr {
+        border-color: #a3a0a0;
+        border-style: solid;
+        border-width: 0;
+    }
+
+    .card_height_100 {
+        height: calc(100% - -15px) !important;
+    }
+</style>
+
+<link href="~/Assets/lib/CommonUI/css/CMS/dashboard.css" rel="stylesheet" />
+@*<script src="~/Assets/lib/CommonUI/js/EnrollmentDashboard.js"></script>*@
+<script src="~/assets/lib/commonui/js/casemanagement/dashboard.js?v=@DateTime.Now.ToString("yymmddHHmmss")"></script>
+
+<div class="row" style=" padding: 0px 30px;">
+    <div class="col-md-6 pe-1" style="padding-left: 17px">
+        <input id="ddlMinistryDepartment" style=" width: 100%;" />
+    </div>
+    <div class="col-md-6" style="padding-left: 5px; padding-right: 15px">
+        <input id="ddlConOffice" style=" width: 100%;" />
+    </div>
+</div>
+<div class="main_content_iner" style=" padding: 0px 30px;">
+    <div class="container-fluid p-0">
+        <div class="row ">
+            <div class="col-xl-12">
+                <div class="white_card card_height_100 mb_30 user_crm_wrapper">
+                    <div class="row">
+                        <div class="col-md-3" style="padding: 5px;">
+                            <div class="single_crm">
+                                <div class="crm_head crm_bg_3 d-flex align-items-center justify-content-between">
+                                    <div class="thumb">
+                                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                                    </div>
+                                    <i class="fas fa-ellipsis-h f_s_11 white_text"></i>
+                                </div>
+                                <div class="crm_body" style="cursor:pointer" onclick="Report(4)">
+                                    @*<div class="crm_body" style="cursor:pointer">*@
+                                    <p>
+                                        My Upcoming
+                                    </p>
+                                    <h4 id="MyUpcoming">0</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 5px;">
+                            <div class="single_crm">
+                                <div class="crm_head crm_bg_2 d-flex align-items-center justify-content-between">
+                                    <div class="thumb">
+                                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                                    </div>
+                                    <i class="fas fa-ellipsis-h f_s_11 white_text"></i>
+                                </div>
+                                <div class="crm_body" style="cursor:pointer" onclick="Report(3)">
+                                    @*<div class="crm_body" style="cursor:pointer">*@
+                                    <p>
+                                        Activity Update Pending
+                                    </p>
+                                    <h4 id="CaseActivityUpdatePending">0</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 5px;">
+                            <div class="single_crm ">
+                                <div class="crm_head crm_bg_1 d-flex align-items-center justify-content-between">
+                                    <div class="thumb">
+                                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                                    </div>
+                                    <i class="fas fa-ellipsis-h f_s_11 white_text"></i>
+                                </div>
+                                <div class="crm_body" style="cursor:pointer" onclick="Report(2)">
+                                @*<div class="crm_body" style="cursor:pointer">*@
+                                    <p>
+                                        Hearing Pending
+                                    </p>
+                                    <h4 id="HearingPending">0</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 5px;">
+                            <div class="single_crm">
+                                <div class="crm_head d-flex align-items-center justify-content-between">
+                                    <div class="thumb">
+                                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                                    </div>
+                                    <i class="fas fa-ellipsis-h f_s_11 white_text"></i>
+                                </div>
+                                <div class="crm_body" style="cursor:pointer" onclick="Report(1)">
+                                    @*<div class="crm_body" style="cursor:pointer">*@
+                                    <p>
+                                        Total Upcoming
+                                    </p>
+                                    <h4 id="TotalUpcoming">0</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-xl-7">
+                <div class="white_card card_height_100" style="box-shadow: 12px 12px 16px 0 rgb(0 0 0 / 25%), -8px -8px 12px 0 rgb(255 255 255 / 30%);">
+                    <div class="row">
+                        <div class="col-md-11">
+                         <input id="ddlCaseCategory" style="width:100%" />
+                        </div>
+                        <div class="col-md-1" style="text-align:right">
+                            @*<button class="btn btn-info" style="margin-top:17px" onclick="ViewReport()"> <span style=" color: white; margin-top: -6px;" class="k-icon k-i-file-pdf"></span> </button>*@
+                            @*<button class="btn btn-info" style="margin-top:17px"> <span style=" color: white; margin-top: -6px;" class="k-icon k-i-file-pdf"></span> </button>*@
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="barChart" style="width:100%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-5">
+                <div class="white_card card_height_100" style="box-shadow: 12px 12px 16px 0 rgb(0 0 0 / 25%), -8px -8px 12px 0 rgb(255 255 255 / 30%);">
+                    <div id="chart" style="width:100%"></div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+    </div>
+</div>
+
+<script>
+    function ViewReport() {
+        var url = '/Reports/Report5';
+        window.open(url, '_blank');
+    }
+</script>
